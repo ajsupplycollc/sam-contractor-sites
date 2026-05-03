@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Painting And Sons | Professional Painting & Pressure Washing in Miami, FL</title>
+    <meta name="description" content="Pro Painting And Sons - Top-rated painting and pressure washing services in Miami, FL. 4.9 stars from 113+ reviews. Call (786) 554-3438 for a free estimate.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --primary: #1a365d;
+            --accent: #e53e3e;
+            --light: #f7fafc;
+            --dark: #1a202c;
+            --gray: #718096;
+            --border: #e2e8f0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+        /* Header */
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 12px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo { font-size: 1.1rem; font-weight: 700; }
+        .header-cta {
+            background: var(--accent);
+            color: white;
+            text-decoration: none;
+            padding: 8px 18px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        .header-cta:hover { opacity: 0.9; }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, #2d4a7a 100%);
+            color: white;
+            padding: 80px 0 60px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 800;
+            margin-bottom: 12px;
+            line-height: 1.2;
+        }
+        .hero .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        .hero .rating {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255,255,255,0.15);
+            padding: 8px 16px;
+            border-radius: 30px;
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+        }
+        .stars { color: #fbbf24; }
+        .hero-cta {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            text-decoration: none;
+            padding: 16px 36px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: transform 0.2s;
+        }
+        .hero-cta:hover { transform: scale(1.03); }
+
+        /* Services */
+        .services { padding: 60px 0; background: var(--light); }
+        .section-title {
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+        .service-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            border: 1px solid var(--border);
+        }
+        .service-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            color: var(--primary);
+        }
+        .service-card p { color: var(--gray); font-size: 0.95rem; }
+
+        /* Why Us */
+        .why-us { padding: 60px 0; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 24px;
+            text-align: center;
+        }
+        .stat-item h3 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--accent);
+        }
+        .stat-item p { color: var(--gray); margin-top: 4px; }
+
+        /* Reviews */
+        .reviews { padding: 60px 0; background: var(--light); }
+        .review-card {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            margin-bottom: 16px;
+            border: 1px solid var(--border);
+        }
+        .review-card .review-stars { color: #fbbf24; margin-bottom: 8px; }
+        .review-card p { color: var(--dark); font-style: italic; }
+        .review-card .reviewer { color: var(--gray); font-size: 0.85rem; margin-top: 8px; }
+
+        /* Contact */
+        .contact {
+            padding: 60px 0;
+            text-align: center;
+        }
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+            margin-top: 30px;
+        }
+        .contact-item { padding: 24px; }
+        .contact-item h3 { color: var(--primary); margin-bottom: 8px; }
+        .contact-item p { color: var(--gray); }
+        .contact-item a { color: var(--accent); text-decoration: none; font-weight: 600; font-size: 1.1rem; }
+
+        .cta-bottom {
+            background: var(--primary);
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .cta-bottom h2 { font-size: 1.8rem; margin-bottom: 20px; }
+        .cta-bottom a {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            text-decoration: none;
+            padding: 16px 40px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: var(--gray);
+            padding: 24px 0;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+        footer a { color: white; text-decoration: none; }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .hero { padding: 50px 0 40px; }
+            .services-grid { grid-template-columns: 1fr; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Pro Painting And Sons</div>
+            <a href="tel:+17865543438" class="header-cta">Call Now</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Professional Painting &<br>Pressure Washing</h1>
+            <p class="tagline">Serving Miami & South Florida with quality craftsmanship</p>
+            <div class="rating">
+                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span>4.9 out of 5 &bull; 113 Reviews</span>
+            </div>
+            <br>
+            <a href="tel:+17865543438" class="hero-cta">Get Your Free Estimate &rarr;</a>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Interior Painting</h3>
+                    <p>Transform your home with flawless interior finishes. Clean edges, smooth coats, and zero mess. Bedrooms, living rooms, kitchens, and more.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Exterior Painting</h3>
+                    <p>Protect and beautify your property's exterior. Weather-resistant paints that hold up to South Florida's sun, rain, and humidity.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Pressure Washing</h3>
+                    <p>Restore driveways, walkways, pool decks, and building exteriors to like-new condition. Remove mold, mildew, and years of grime.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Commercial Painting</h3>
+                    <p>Offices, retail spaces, and multi-unit properties. Minimal disruption to your business with fast, professional turnaround.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-us">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>4.9&#9733;</h3>
+                    <p>Google Rating</p>
+                </div>
+                <div class="stat-item">
+                    <h3>113+</h3>
+                    <p>5-Star Reviews</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Licensed & Insured</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Free</h3>
+                    <p>Estimates</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="review-card">
+                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p>"Excellent work from start to finish. The team was professional, on time, and the results speak for themselves. Our house looks brand new."</p>
+                <div class="reviewer">- Verified Google Review</div>
+            </div>
+            <div class="review-card">
+                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p>"Best painters in Miami. Fair pricing, incredible attention to detail, and they cleaned up perfectly when done. Highly recommend."</p>
+                <div class="reviewer">- Verified Google Review</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Call Us</h3>
+                    <a href="tel:+17865543438">(786) 554-3438</a>
+                    <p>Mon-Sat 7am-7pm</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Location</h3>
+                    <p>2911 SW 26th St<br>Miami, FL 33133</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Follow Us</h3>
+                    <a href="https://www.instagram.com/propaintingandsons/" target="_blank">@propaintingandsons</a>
+                    <p>See our latest work</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-bottom">
+        <div class="container">
+            <h2>Ready to Transform Your Space?</h2>
+            <a href="tel:+17865543438">Call (786) 554-3438 for a Free Quote</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Pro Painting And Sons. All rights reserved. | Miami, FL | <a href="tel:+17865543438">(786) 554-3438</a></p>
+        </div>
+    </footer>
+</body>
+</html>
