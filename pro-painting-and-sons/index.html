@@ -3,106 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pro Painting And Sons | Professional Painting & Pressure Washing in Miami, FL</title>
-    <meta name="description" content="Pro Painting And Sons - Top-rated painting and pressure washing services in Miami, FL. 4.9 stars from 113+ reviews. Call (786) 554-3438 for a free estimate.">
+    <title>Pro Painting And Sons LLC | Painting & Pressure Cleaning in Miami, FL</title>
+    <meta name="description" content="Pro Painting And Sons LLC - Licensed & insured house painting and pressure cleaning in Miami, FL. 4.9 stars, 113+ reviews. Residential & commercial. Call (786) 554-3438.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         :root {
-            --primary: #1a365d;
-            --accent: #e53e3e;
-            --light: #f7fafc;
-            --dark: #1a202c;
-            --gray: #718096;
-            --border: #e2e8f0;
+            --orange: #E87722;
+            --orange-dark: #c5631a;
+            --black: #1a1a1a;
+            --dark: #222222;
+            --white: #ffffff;
+            --light: #faf8f5;
+            --gray: #6b6b6b;
+            --border: #e5e0da;
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: 'Montserrat', -apple-system, sans-serif;
             color: var(--dark);
             line-height: 1.6;
         }
 
         .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 
-        /* Header */
         header {
-            background: var(--primary);
-            color: white;
-            padding: 12px 0;
+            background: var(--black);
+            color: var(--white);
+            padding: 10px 0;
             position: sticky;
             top: 0;
             z-index: 100;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 12px rgba(0,0,0,0.3);
         }
         header .container {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        .logo { font-size: 1.1rem; font-weight: 700; }
-        .header-cta {
-            background: var(--accent);
-            color: white;
-            text-decoration: none;
-            padding: 8px 18px;
-            border-radius: 6px;
-            font-weight: 600;
-            font-size: 0.9rem;
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 12px;
         }
-        .header-cta:hover { opacity: 0.9; }
+        .logo-area img {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            border: 2px solid var(--orange);
+        }
+        .logo-text {
+            font-size: 0.95rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        .logo-text span { color: var(--orange); }
+        .header-cta {
+            background: var(--orange);
+            color: var(--white);
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            transition: background 0.2s;
+        }
+        .header-cta:hover { background: var(--orange-dark); }
 
-        /* Hero */
         .hero {
-            background: linear-gradient(135deg, var(--primary) 0%, #2d4a7a 100%);
-            color: white;
-            padding: 80px 0 60px;
+            background: var(--black);
+            color: var(--white);
+            padding: 70px 0 60px;
             text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(232,119,34,0.15) 0%, transparent 60%);
+        }
+        .hero .container { position: relative; z-index: 1; }
+        .hero-badge {
+            display: inline-block;
+            background: var(--orange);
+            color: var(--white);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
         }
         .hero h1 {
-            font-size: clamp(2rem, 5vw, 3rem);
-            font-weight: 800;
-            margin-bottom: 12px;
-            line-height: 1.2;
+            font-size: clamp(2.2rem, 5vw, 3.2rem);
+            font-weight: 900;
+            margin-bottom: 14px;
+            line-height: 1.15;
+            text-transform: uppercase;
+            letter-spacing: -0.5px;
         }
+        .hero h1 span { color: var(--orange); }
         .hero .tagline {
-            font-size: 1.2rem;
-            opacity: 0.9;
-            margin-bottom: 20px;
+            font-size: 1.1rem;
+            opacity: 0.85;
+            margin-bottom: 24px;
+            font-weight: 400;
         }
         .hero .rating {
             display: inline-flex;
             align-items: center;
-            gap: 8px;
-            background: rgba(255,255,255,0.15);
-            padding: 8px 16px;
+            gap: 10px;
+            background: rgba(232,119,34,0.2);
+            border: 1px solid rgba(232,119,34,0.4);
+            padding: 10px 20px;
             border-radius: 30px;
             font-size: 0.95rem;
             margin-bottom: 30px;
+            font-weight: 600;
         }
-        .stars { color: #fbbf24; }
+        .stars { color: var(--orange); font-size: 1.1rem; }
         .hero-cta {
             display: inline-block;
-            background: var(--accent);
-            color: white;
+            background: var(--orange);
+            color: var(--white);
             text-decoration: none;
-            padding: 16px 36px;
+            padding: 18px 40px;
             border-radius: 8px;
-            font-weight: 700;
-            font-size: 1.1rem;
-            transition: transform 0.2s;
+            font-weight: 800;
+            font-size: 1.05rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: transform 0.2s, background 0.2s;
         }
-        .hero-cta:hover { transform: scale(1.03); }
+        .hero-cta:hover { transform: scale(1.03); background: var(--orange-dark); }
 
-        /* Services */
         .services { padding: 60px 0; background: var(--light); }
         .section-title {
             text-align: center;
             font-size: 1.8rem;
-            font-weight: 700;
+            font-weight: 800;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: -0.3px;
+        }
+        .section-subtitle {
+            text-align: center;
+            color: var(--gray);
+            font-size: 1rem;
             margin-bottom: 40px;
         }
         .services-grid {
@@ -111,139 +169,157 @@
             gap: 24px;
         }
         .service-card {
-            background: white;
+            background: var(--white);
             padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-            border: 1px solid var(--border);
+            border-radius: 10px;
+            border-left: 4px solid var(--orange);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         }
         .service-card h3 {
-            font-size: 1.2rem;
+            font-size: 1.15rem;
             margin-bottom: 8px;
-            color: var(--primary);
+            font-weight: 700;
+            color: var(--black);
         }
-        .service-card p { color: var(--gray); font-size: 0.95rem; }
+        .service-card p { color: var(--gray); font-size: 0.9rem; }
 
-        /* Why Us */
-        .why-us { padding: 60px 0; }
+        .why-us { padding: 60px 0; background: var(--black); color: var(--white); }
+        .why-us .section-title { color: var(--white); }
+        .why-us .section-subtitle { color: rgba(255,255,255,0.6); }
         .stats-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 24px;
             text-align: center;
         }
+        .stat-item {
+            padding: 20px;
+            border: 1px solid rgba(232,119,34,0.3);
+            border-radius: 10px;
+        }
         .stat-item h3 {
             font-size: 2.5rem;
-            font-weight: 800;
-            color: var(--accent);
+            font-weight: 900;
+            color: var(--orange);
         }
-        .stat-item p { color: var(--gray); margin-top: 4px; }
+        .stat-item p { color: rgba(255,255,255,0.7); margin-top: 4px; font-weight: 500; }
 
-        /* Reviews */
         .reviews { padding: 60px 0; background: var(--light); }
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
         .review-card {
-            background: white;
+            background: var(--white);
             padding: 24px;
-            border-radius: 12px;
-            margin-bottom: 16px;
-            border: 1px solid var(--border);
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         }
-        .review-card .review-stars { color: #fbbf24; margin-bottom: 8px; }
-        .review-card p { color: var(--dark); font-style: italic; }
-        .review-card .reviewer { color: var(--gray); font-size: 0.85rem; margin-top: 8px; }
+        .review-card .review-stars { color: var(--orange); margin-bottom: 10px; font-size: 1.1rem; }
+        .review-card p { color: var(--dark); font-style: italic; font-size: 0.95rem; }
+        .review-card .reviewer { color: var(--gray); font-size: 0.8rem; margin-top: 10px; font-weight: 600; }
 
-        /* Contact */
-        .contact {
-            padding: 60px 0;
-            text-align: center;
-        }
-        .contact-info {
+        .contact { padding: 60px 0; text-align: center; }
+        .contact-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 24px;
             margin-top: 30px;
         }
         .contact-item { padding: 24px; }
-        .contact-item h3 { color: var(--primary); margin-bottom: 8px; }
+        .contact-item h3 { color: var(--black); margin-bottom: 8px; font-weight: 700; }
         .contact-item p { color: var(--gray); }
-        .contact-item a { color: var(--accent); text-decoration: none; font-weight: 600; font-size: 1.1rem; }
+        .contact-item a { color: var(--orange); text-decoration: none; font-weight: 700; font-size: 1.15rem; }
 
         .cta-bottom {
-            background: var(--primary);
-            color: white;
+            background: var(--orange);
+            color: var(--white);
             padding: 50px 0;
             text-align: center;
         }
-        .cta-bottom h2 { font-size: 1.8rem; margin-bottom: 20px; }
+        .cta-bottom h2 {
+            font-size: 1.8rem;
+            margin-bottom: 8px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+        .cta-bottom .sub { opacity: 0.9; margin-bottom: 24px; }
         .cta-bottom a {
             display: inline-block;
-            background: var(--accent);
-            color: white;
+            background: var(--black);
+            color: var(--white);
             text-decoration: none;
             padding: 16px 40px;
             border-radius: 8px;
-            font-weight: 700;
-            font-size: 1.1rem;
+            font-weight: 800;
+            font-size: 1.05rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
 
-        /* Footer */
         footer {
-            background: var(--dark);
+            background: var(--black);
             color: var(--gray);
             padding: 24px 0;
             text-align: center;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
         }
-        footer a { color: white; text-decoration: none; }
+        footer a { color: var(--orange); text-decoration: none; }
 
-        /* Mobile */
         @media (max-width: 768px) {
             .hero { padding: 50px 0 40px; }
-            .services-grid { grid-template-columns: 1fr; }
+            .services-grid, .reviews-grid { grid-template-columns: 1fr; }
             .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .logo-text { font-size: 0.85rem; }
         }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <div class="logo">Pro Painting And Sons</div>
+            <div class="logo-area">
+                <img src="https://scontent-lga3-2.cdninstagram.com/v/t51.2885-19/271319333_4506393576135763_3236570353458751289_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=103&ccb=1-7&_nc_sid=fcb8ef&_nc_ohc=placeholder&_nc_zt=24&_nc_ht=scontent-lga3-2.cdninstagram.com&oh=placeholder&oe=placeholder" alt="Pro Painting And Sons Logo" onerror="this.style.display='none'">
+                <div class="logo-text"><span>PRO</span> PAINTING AND SONS</div>
+            </div>
             <a href="tel:+17865543438" class="header-cta">Call Now</a>
         </div>
     </header>
 
     <section class="hero">
         <div class="container">
-            <h1>Professional Painting &<br>Pressure Washing</h1>
-            <p class="tagline">Serving Miami & South Florida with quality craftsmanship</p>
+            <div class="hero-badge">Licensed &amp; Insured</div>
+            <h1>House <span>Painting</span> &amp;<br>Pressure Cleaning</h1>
+            <p class="tagline">We are approachable. We listen. We love what we do.</p>
             <div class="rating">
                 <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                <span>4.9 out of 5 &bull; 113 Reviews</span>
+                <span>4.9 / 5 &mdash; 113+ Google Reviews</span>
             </div>
             <br>
-            <a href="tel:+17865543438" class="hero-cta">Get Your Free Estimate &rarr;</a>
+            <a href="tel:+17865543438" class="hero-cta">Free Estimate &rarr; (786) 554-3438</a>
         </div>
     </section>
 
     <section class="services">
         <div class="container">
-            <h2 class="section-title">Our Services</h2>
+            <h2 class="section-title">What We Do</h2>
+            <p class="section-subtitle">Residential &amp; commercial services across Miami and South Florida</p>
             <div class="services-grid">
                 <div class="service-card">
                     <h3>Interior Painting</h3>
-                    <p>Transform your home with flawless interior finishes. Clean edges, smooth coats, and zero mess. Bedrooms, living rooms, kitchens, and more.</p>
+                    <p>Flawless finishes for every room. Clean edges, smooth coats, and zero mess. We prep, prime, and paint to perfection.</p>
                 </div>
                 <div class="service-card">
                     <h3>Exterior Painting</h3>
-                    <p>Protect and beautify your property's exterior. Weather-resistant paints that hold up to South Florida's sun, rain, and humidity.</p>
+                    <p>Weather-resistant coatings built for South Florida's sun, rain, and humidity. Protect and beautify your property.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Pressure Washing</h3>
-                    <p>Restore driveways, walkways, pool decks, and building exteriors to like-new condition. Remove mold, mildew, and years of grime.</p>
+                    <h3>Pressure Cleaning</h3>
+                    <p>Driveways, walkways, pool decks, and building exteriors restored to like-new. Remove mold, mildew, and years of buildup.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Commercial Painting</h3>
-                    <p>Offices, retail spaces, and multi-unit properties. Minimal disruption to your business with fast, professional turnaround.</p>
+                    <h3>Commercial Projects</h3>
+                    <p>Offices, retail, and multi-unit properties. Minimal disruption, fast turnaround, professional results every time.</p>
                 </div>
             </div>
         </div>
@@ -251,7 +327,8 @@
 
     <section class="why-us">
         <div class="container">
-            <h2 class="section-title">Why Choose Us</h2>
+            <h2 class="section-title">We Are Committed to Quality</h2>
+            <p class="section-subtitle">The numbers speak for themselves</p>
             <div class="stats-grid">
                 <div class="stat-item">
                     <h3>4.9&#9733;</h3>
@@ -262,12 +339,12 @@
                     <p>5-Star Reviews</p>
                 </div>
                 <div class="stat-item">
-                    <h3>100%</h3>
-                    <p>Licensed & Insured</p>
+                    <h3>677</h3>
+                    <p>Projects Completed</p>
                 </div>
                 <div class="stat-item">
-                    <h3>Free</h3>
-                    <p>Estimates</p>
+                    <h3>3,200+</h3>
+                    <p>Instagram Followers</p>
                 </div>
             </div>
         </div>
@@ -276,15 +353,18 @@
     <section class="reviews">
         <div class="container">
             <h2 class="section-title">What Our Customers Say</h2>
-            <div class="review-card">
-                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                <p>"Excellent work from start to finish. The team was professional, on time, and the results speak for themselves. Our house looks brand new."</p>
-                <div class="reviewer">- Verified Google Review</div>
-            </div>
-            <div class="review-card">
-                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                <p>"Best painters in Miami. Fair pricing, incredible attention to detail, and they cleaned up perfectly when done. Highly recommend."</p>
-                <div class="reviewer">- Verified Google Review</div>
+            <p class="section-subtitle">Real reviews from real homeowners</p>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"Excellent work from start to finish. The team was professional, on time, and the results speak for themselves. Our house looks brand new."</p>
+                    <div class="reviewer">&mdash; Verified Google Review</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"Best painters in Miami. Fair pricing, incredible attention to detail, and they cleaned up perfectly when done. Highly recommend to anyone."</p>
+                    <div class="reviewer">&mdash; Verified Google Review</div>
+                </div>
             </div>
         </div>
     </section>
@@ -292,20 +372,21 @@
     <section class="contact">
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-info">
+            <p class="section-subtitle">Ready to transform your space? We're one call away.</p>
+            <div class="contact-grid">
                 <div class="contact-item">
                     <h3>Call Us</h3>
                     <a href="tel:+17865543438">(786) 554-3438</a>
-                    <p>Mon-Sat 7am-7pm</p>
+                    <p>Mon &ndash; Sat &bull; 7am &ndash; 7pm</p>
                 </div>
                 <div class="contact-item">
-                    <h3>Location</h3>
+                    <h3>Our Location</h3>
                     <p>2911 SW 26th St<br>Miami, FL 33133</p>
                 </div>
                 <div class="contact-item">
-                    <h3>Follow Us</h3>
-                    <a href="https://www.instagram.com/propaintingandsons/" target="_blank">@propaintingandsons</a>
-                    <p>See our latest work</p>
+                    <h3>See Our Work</h3>
+                    <a href="https://www.instagram.com/propaintingandsons/" target="_blank" rel="noopener">@propaintingandsons</a>
+                    <p>677+ posts of real projects</p>
                 </div>
             </div>
         </div>
@@ -313,14 +394,15 @@
 
     <section class="cta-bottom">
         <div class="container">
-            <h2>Ready to Transform Your Space?</h2>
-            <a href="tel:+17865543438">Call (786) 554-3438 for a Free Quote</a>
+            <h2>Your Home Deserves the Best</h2>
+            <p class="sub">Free estimates. No pressure. Just quality work.</p>
+            <a href="tel:+17865543438">Call (786) 554-3438 Now</a>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Pro Painting And Sons. All rights reserved. | Miami, FL | <a href="tel:+17865543438">(786) 554-3438</a></p>
+            <p>&copy; 2026 Pro Painting And Sons LLC &bull; Miami, FL &bull; <a href="tel:+17865543438">(786) 554-3438</a></p>
         </div>
     </footer>
 </body>

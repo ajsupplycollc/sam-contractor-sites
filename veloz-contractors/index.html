@@ -3,235 +3,336 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veloz Contractors | General Contractor in Hialeah, FL</title>
-    <meta name="description" content="Veloz Contractors - Trusted general contractor in Hialeah, FL. 4.8 stars from 103+ reviews. Remodeling, renovations, and new construction. Call (786) 506-1891.">
+    <title>Veloz Contractors Inc | Luxury Home Remodels & Builds | South Florida</title>
+    <meta name="description" content="Veloz Contractors Inc - Licensed general contractor in South Florida. Luxury home remodels, new construction, and commercial build-outs. 4.8 stars, 103+ reviews. Call (786) 506-1891.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         :root {
-            --primary: #1e3a5f;
-            --accent: #d97706;
-            --light: #f9fafb;
-            --dark: #111827;
-            --gray: #6b7280;
-            --border: #e5e7eb;
+            --steel: #4a90c4;
+            --steel-light: #6aadd8;
+            --ice: #a8d4f0;
+            --dark: #0d1117;
+            --darker: #080b10;
+            --charcoal: #161b22;
+            --white: #f0f6fc;
+            --gray: #8b949e;
+            --border: #21262d;
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            color: var(--dark);
+            font-family: 'Outfit', -apple-system, sans-serif;
+            color: var(--white);
+            background: var(--dark);
             line-height: 1.6;
         }
 
         .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 
         header {
-            background: var(--primary);
-            color: white;
+            background: var(--darker);
             padding: 12px 0;
             position: sticky;
             top: 0;
             z-index: 100;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-bottom: 1px solid var(--border);
         }
         header .container {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        .logo { font-size: 1.1rem; font-weight: 700; }
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .logo-area img {
+            width: 40px;
+            height: 40px;
+            border-radius: 6px;
+        }
+        .logo-text {
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .logo-text span { color: var(--steel); }
         .header-cta {
-            background: var(--accent);
-            color: white;
+            background: var(--steel);
+            color: var(--white);
             text-decoration: none;
-            padding: 8px 18px;
+            padding: 10px 22px;
             border-radius: 6px;
             font-weight: 600;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+            transition: background 0.2s;
         }
+        .header-cta:hover { background: var(--steel-light); }
 
         .hero {
-            background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 100%);
-            color: white;
-            padding: 80px 0 60px;
+            background: linear-gradient(180deg, var(--darker) 0%, var(--dark) 100%);
+            padding: 80px 0 70px;
             text-align: center;
+            position: relative;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--steel), transparent);
+        }
+        .hero-badge {
+            display: inline-block;
+            border: 1px solid var(--steel);
+            color: var(--steel);
+            padding: 6px 18px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 24px;
         }
         .hero h1 {
-            font-size: clamp(2rem, 5vw, 3rem);
+            font-size: clamp(2rem, 5vw, 3.2rem);
             font-weight: 800;
-            margin-bottom: 12px;
-            line-height: 1.2;
+            margin-bottom: 14px;
+            line-height: 1.15;
+            letter-spacing: -0.5px;
+        }
+        .hero h1 span {
+            background: linear-gradient(135deg, var(--steel), var(--ice));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
         .hero .tagline {
             font-size: 1.2rem;
-            opacity: 0.9;
-            margin-bottom: 20px;
+            color: var(--gray);
+            margin-bottom: 8px;
+            font-weight: 300;
+            font-style: italic;
+        }
+        .hero .sub-tagline {
+            font-size: 0.95rem;
+            color: var(--gray);
+            margin-bottom: 28px;
         }
         .hero .rating {
             display: inline-flex;
             align-items: center;
-            gap: 8px;
-            background: rgba(255,255,255,0.15);
-            padding: 8px 16px;
+            gap: 10px;
+            background: rgba(74,144,196,0.1);
+            border: 1px solid rgba(74,144,196,0.3);
+            padding: 10px 22px;
             border-radius: 30px;
-            font-size: 0.95rem;
+            font-size: 0.9rem;
             margin-bottom: 30px;
+            font-weight: 500;
         }
-        .stars { color: #fbbf24; }
+        .stars { color: var(--steel); font-size: 1.1rem; }
         .hero-cta {
             display: inline-block;
-            background: var(--accent);
-            color: white;
+            background: linear-gradient(135deg, var(--steel), var(--steel-light));
+            color: var(--white);
             text-decoration: none;
-            padding: 16px 36px;
+            padding: 18px 44px;
             border-radius: 8px;
             font-weight: 700;
-            font-size: 1.1rem;
-            transition: transform 0.2s;
+            font-size: 1.05rem;
+            letter-spacing: 0.5px;
+            transition: transform 0.2s, box-shadow 0.2s;
         }
-        .hero-cta:hover { transform: scale(1.03); }
+        .hero-cta:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 30px rgba(74,144,196,0.3);
+        }
 
-        .services { padding: 60px 0; background: var(--light); }
+        .services {
+            padding: 60px 0;
+            background: var(--charcoal);
+        }
         .section-title {
             text-align: center;
             font-size: 1.8rem;
             font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .section-subtitle {
+            text-align: center;
+            color: var(--gray);
+            font-size: 0.95rem;
             margin-bottom: 40px;
+            font-weight: 300;
         }
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 24px;
+            gap: 20px;
         }
         .service-card {
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            background: var(--dark);
+            padding: 28px;
+            border-radius: 10px;
             border: 1px solid var(--border);
+            transition: border-color 0.2s;
         }
+        .service-card:hover { border-color: var(--steel); }
         .service-card h3 {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             margin-bottom: 8px;
-            color: var(--primary);
+            font-weight: 600;
+            color: var(--white);
         }
-        .service-card p { color: var(--gray); font-size: 0.95rem; }
+        .service-card p { color: var(--gray); font-size: 0.9rem; font-weight: 300; }
 
         .why-us { padding: 60px 0; }
         .stats-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 24px;
+            gap: 20px;
             text-align: center;
+        }
+        .stat-item {
+            padding: 24px;
+            background: var(--charcoal);
+            border-radius: 10px;
+            border: 1px solid var(--border);
         }
         .stat-item h3 {
             font-size: 2.5rem;
             font-weight: 800;
-            color: var(--accent);
+            background: linear-gradient(135deg, var(--steel), var(--ice));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
-        .stat-item p { color: var(--gray); margin-top: 4px; }
+        .stat-item p { color: var(--gray); margin-top: 4px; font-weight: 400; }
 
-        .reviews { padding: 60px 0; background: var(--light); }
+        .reviews { padding: 60px 0; background: var(--charcoal); }
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
         .review-card {
-            background: white;
+            background: var(--dark);
             padding: 24px;
-            border-radius: 12px;
-            margin-bottom: 16px;
+            border-radius: 10px;
             border: 1px solid var(--border);
         }
-        .review-card .review-stars { color: #fbbf24; margin-bottom: 8px; }
-        .review-card p { color: var(--dark); font-style: italic; }
-        .review-card .reviewer { color: var(--gray); font-size: 0.85rem; margin-top: 8px; }
+        .review-card .review-stars { color: var(--steel); margin-bottom: 10px; }
+        .review-card p { color: var(--white); font-style: italic; font-size: 0.95rem; font-weight: 300; }
+        .review-card .reviewer { color: var(--gray); font-size: 0.8rem; margin-top: 10px; font-weight: 500; }
 
         .contact { padding: 60px 0; text-align: center; }
-        .contact-info {
+        .contact-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 24px;
             margin-top: 30px;
         }
         .contact-item { padding: 24px; }
-        .contact-item h3 { color: var(--primary); margin-bottom: 8px; }
-        .contact-item p { color: var(--gray); }
-        .contact-item a { color: var(--accent); text-decoration: none; font-weight: 600; font-size: 1.1rem; }
+        .contact-item h3 { color: var(--white); margin-bottom: 8px; font-weight: 600; }
+        .contact-item p { color: var(--gray); font-weight: 300; }
+        .contact-item a { color: var(--steel); text-decoration: none; font-weight: 600; font-size: 1.15rem; }
 
         .cta-bottom {
-            background: var(--primary);
-            color: white;
+            background: linear-gradient(135deg, var(--steel), #3a7ab0);
             padding: 50px 0;
             text-align: center;
         }
-        .cta-bottom h2 { font-size: 1.8rem; margin-bottom: 20px; }
+        .cta-bottom h2 {
+            font-size: 1.8rem;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        .cta-bottom .sub { opacity: 0.85; margin-bottom: 24px; font-weight: 300; }
         .cta-bottom a {
             display: inline-block;
-            background: var(--accent);
-            color: white;
+            background: var(--dark);
+            color: var(--white);
             text-decoration: none;
             padding: 16px 40px;
             border-radius: 8px;
             font-weight: 700;
-            font-size: 1.1rem;
+            font-size: 1.05rem;
+            letter-spacing: 0.3px;
         }
 
         footer {
-            background: var(--dark);
+            background: var(--darker);
             color: var(--gray);
             padding: 24px 0;
             text-align: center;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
+            border-top: 1px solid var(--border);
         }
-        footer a { color: white; text-decoration: none; }
+        footer a { color: var(--steel); text-decoration: none; }
 
         @media (max-width: 768px) {
             .hero { padding: 50px 0 40px; }
-            .services-grid { grid-template-columns: 1fr; }
+            .services-grid, .reviews-grid { grid-template-columns: 1fr; }
             .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .logo-text { font-size: 0.85rem; }
         }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <div class="logo">Veloz Contractors</div>
-            <a href="tel:+17865061891" class="header-cta">Call Now</a>
+            <div class="logo-area">
+                <img src="https://instagram.fric1-2.fna.fbcdn.net/v/t51.2885-19/83727449_615664959278027_5003247178802528256_n.jpg?stp=dst-jpg_e0_s150x150_tt6" alt="Veloz Contractors Logo" onerror="this.style.display='none'">
+                <div class="logo-text"><span>Veloz</span> Contractors</div>
+            </div>
+            <a href="tel:+17865061891" class="header-cta">Free Consultation</a>
         </div>
     </header>
 
     <section class="hero">
         <div class="container">
-            <h1>Quality Construction &<br>Remodeling in Hialeah</h1>
-            <p class="tagline">General contracting you can trust — on time, on budget</p>
+            <div class="hero-badge">Licensed General Contractor</div>
+            <h1><span>You Dream It</span>,<br>We Build It</h1>
+            <p class="tagline">Luxury Home Remodels &amp; Builds</p>
+            <p class="sub-tagline">Serving South Florida with precision craftsmanship</p>
             <div class="rating">
                 <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                <span>4.8 out of 5 &bull; 103 Reviews</span>
+                <span>4.8 / 5 &mdash; 103+ Google Reviews</span>
             </div>
             <br>
-            <a href="tel:+17865061891" class="hero-cta">Get Your Free Estimate &rarr;</a>
+            <a href="tel:+17865061891" class="hero-cta">Schedule Your Consultation &rarr;</a>
         </div>
     </section>
 
     <section class="services">
         <div class="container">
-            <h2 class="section-title">Our Services</h2>
+            <h2 class="section-title">Our Expertise</h2>
+            <p class="section-subtitle">From concept to completion &mdash; quality you can see and feel</p>
             <div class="services-grid">
                 <div class="service-card">
-                    <h3>Home Remodeling</h3>
-                    <p>Complete kitchen and bathroom renovations. Modern designs that increase your property value and transform your living space.</p>
+                    <h3>Luxury Remodeling</h3>
+                    <p>Complete kitchen and bathroom transformations. High-end finishes, custom cabinetry, and designer tile work that elevates your home.</p>
                 </div>
                 <div class="service-card">
                     <h3>New Construction</h3>
-                    <p>From foundation to finish. Residential builds with attention to detail, code compliance, and quality materials throughout.</p>
+                    <p>Ground-up residential builds with meticulous attention to structural integrity, code compliance, and premium materials throughout.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Room Additions</h3>
-                    <p>Expand your living space without moving. Permitted, engineered additions that blend seamlessly with your existing home.</p>
+                    <h3>Custom Build-Outs</h3>
+                    <p>Entertainment walls, room additions, and specialty spaces. Engineered additions that integrate seamlessly with your existing home.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Commercial Build-Outs</h3>
-                    <p>Office spaces, retail stores, and restaurant interiors. Fast turnaround so you can open for business sooner.</p>
+                    <h3>Commercial Spaces</h3>
+                    <p>Office interiors, retail environments, and restaurant build-outs. Designed for function, built for durability, delivered on schedule.</p>
                 </div>
             </div>
         </div>
@@ -239,7 +340,8 @@
 
     <section class="why-us">
         <div class="container">
-            <h2 class="section-title">Why Choose Veloz</h2>
+            <h2 class="section-title">The Veloz Standard</h2>
+            <p class="section-subtitle">8,400+ followers trust our work on Instagram</p>
             <div class="stats-grid">
                 <div class="stat-item">
                     <h3>4.8&#9733;</h3>
@@ -247,15 +349,15 @@
                 </div>
                 <div class="stat-item">
                     <h3>103+</h3>
-                    <p>Happy Clients</p>
+                    <p>Completed Projects</p>
+                </div>
+                <div class="stat-item">
+                    <h3>8.4K</h3>
+                    <p>Instagram Followers</p>
                 </div>
                 <div class="stat-item">
                     <h3>100%</h3>
-                    <p>Licensed & Insured</p>
-                </div>
-                <div class="stat-item">
-                    <h3>Free</h3>
-                    <p>Project Estimates</p>
+                    <p>Licensed &amp; Insured</p>
                 </div>
             </div>
         </div>
@@ -263,37 +365,41 @@
 
     <section class="reviews">
         <div class="container">
-            <h2 class="section-title">What Our Clients Say</h2>
-            <div class="review-card">
-                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                <p>"Veloz did an amazing job on our kitchen remodel. Professional crew, stayed on schedule, and the final result exceeded our expectations."</p>
-                <div class="reviewer">- Verified Google Review</div>
-            </div>
-            <div class="review-card">
-                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                <p>"Honest, reliable, and high quality work. They handled all the permits and kept us informed every step of the way. Would hire again."</p>
-                <div class="reviewer">- Verified Google Review</div>
+            <h2 class="section-title">Client Testimonials</h2>
+            <p class="section-subtitle">What homeowners are saying about Veloz</p>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"Veloz did an amazing job on our kitchen remodel. Professional crew, stayed on schedule, and the final result exceeded our expectations. True craftsmen."</p>
+                    <div class="reviewer">&mdash; Verified Google Review</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"Honest, reliable, and outstanding quality. They handled all the permits, kept us informed throughout, and delivered a beautiful entertainment wall unit."</p>
+                    <div class="reviewer">&mdash; Verified Google Review</div>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="contact">
         <div class="container">
-            <h2 class="section-title">Contact Us</h2>
-            <div class="contact-info">
+            <h2 class="section-title">Start Your Project</h2>
+            <p class="section-subtitle">DM us or call for a free consultation</p>
+            <div class="contact-grid">
                 <div class="contact-item">
                     <h3>Call Us</h3>
                     <a href="tel:+17865061891">(786) 506-1891</a>
-                    <p>Mon-Sat 7am-6pm</p>
+                    <p>Mon &ndash; Sat</p>
                 </div>
                 <div class="contact-item">
-                    <h3>Location</h3>
+                    <h3>Our Location</h3>
                     <p>8075 W 23rd Ave<br>Hialeah, FL 33016</p>
                 </div>
                 <div class="contact-item">
-                    <h3>Follow Us</h3>
-                    <a href="https://instagram.com/velozcontractors" target="_blank">@velozcontractors</a>
-                    <p>See our latest projects</p>
+                    <h3>See Our Work</h3>
+                    <a href="https://instagram.com/velozcontractors" target="_blank" rel="noopener">@velozcontractors</a>
+                    <p>125+ project showcases</p>
                 </div>
             </div>
         </div>
@@ -301,14 +407,15 @@
 
     <section class="cta-bottom">
         <div class="container">
-            <h2>Ready to Start Your Project?</h2>
-            <a href="tel:+17865061891">Call (786) 506-1891 for a Free Quote</a>
+            <h2>Your Vision, Our Expertise</h2>
+            <p class="sub">Free consultations. Transparent pricing. No surprises.</p>
+            <a href="tel:+17865061891">Call (786) 506-1891</a>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Veloz Contractors. All rights reserved. | Hialeah, FL | <a href="tel:+17865061891">(786) 506-1891</a></p>
+            <p>&copy; 2026 Veloz Contractors Inc &bull; South Florida &bull; <a href="tel:+17865061891">(786) 506-1891</a></p>
         </div>
     </footer>
 </body>
