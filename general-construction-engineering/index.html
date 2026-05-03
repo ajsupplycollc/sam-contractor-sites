@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Construction & Engineering Services, Inc. | General Contractor | South Florida</title>
+    <meta name="description" content="General Construction & Engineering Services, Inc. - Built to Last — Engineering Meets Craftsmanship. 4.4 stars, 20+ reviews. General Contractor in South Florida. Call (305) 833-3370.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        :root{--primary:#37474f;--accent:#ff8f00;--bg:#eceff1;--card:#ffffff;--border:#cfd8dc;}
+        body{font-family:'Inter',-apple-system,sans-serif;color:#1a1a1a;background:var(--bg);line-height:1.6}
+        .container{max-width:1100px;margin:0 auto;padding:0 20px}
+        header{background:#fff;padding:12px 0;position:sticky;top:0;z-index:100;box-shadow:0 1px 8px rgba(0,0,0,.08)}
+        header .container{display:flex;justify-content:space-between;align-items:center}
+        .logo{font-size:1rem;font-weight:700;color:var(--primary)}
+        .header-cta{background:var(--primary);color:#fff;text-decoration:none;padding:10px 20px;border-radius:6px;font-weight:600;font-size:.85rem}
+        .hero{background:var(--primary);color:#fff;padding:80px 0 60px;text-align:center}
+        .hero-badge{display:inline-block;background:rgba(255,255,255,.2);padding:6px 16px;border-radius:20px;font-size:.75rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:20px}
+        .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;margin-bottom:14px;line-height:1.15}
+        .hero .tagline{font-size:1.1rem;opacity:.9;margin-bottom:24px;font-weight:300}
+        .hero .rating{display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.15);padding:10px 20px;border-radius:30px;font-size:.9rem;margin-bottom:30px}
+        .stars{color:#fbbf24}
+        .hero-cta{display:inline-block;background:#fff;color:var(--primary);text-decoration:none;padding:18px 40px;border-radius:8px;font-weight:700;font-size:1.05rem;transition:transform .2s}
+        .hero-cta:hover{transform:scale(1.03)}
+        .services{padding:60px 0}
+        .section-title{text-align:center;font-size:1.8rem;font-weight:700;margin-bottom:10px;color:var(--primary)}
+        .section-subtitle{text-align:center;color:#6b7280;font-size:.95rem;margin-bottom:40px}
+        .services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+        .service-card{background:var(--card);padding:28px;border-radius:10px;border-left:4px solid var(--accent);box-shadow:0 2px 8px rgba(0,0,0,.04)}
+        .service-card h3{font-size:1.1rem;margin-bottom:8px;font-weight:600;color:var(--primary)}
+        .service-card p{color:#6b7280;font-size:.9rem}
+        .why-us{padding:60px 0;background:var(--primary);color:#fff}
+        .why-us .section-title{color:#fff}
+        .why-us .section-subtitle{color:rgba(255,255,255,.7)}
+        .stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;text-align:center}
+        .stat-item{padding:24px;background:rgba(255,255,255,.1);border-radius:10px}
+        .stat-item h3{font-size:2.2rem;font-weight:800;color:#fff}
+        .stat-item p{color:rgba(255,255,255,.7);margin-top:4px}
+        .reviews-section{padding:60px 0}
+        .reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+        .review-card{background:var(--card);padding:24px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.04);border:1px solid var(--border)}
+        .review-card .review-stars{color:var(--accent);margin-bottom:10px}
+        .review-card p{color:#374151;font-style:italic;font-size:.95rem}
+        .review-card .reviewer{color:#9ca3af;font-size:.8rem;margin-top:10px;font-weight:500}
+        .contact{padding:60px 0;background:var(--card);text-align:center}
+        .contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px;margin-top:30px}
+        .contact-item{padding:24px}
+        .contact-item h3{color:var(--primary);margin-bottom:8px;font-weight:600}
+        .contact-item p{color:#6b7280}
+        .contact-item a{color:var(--primary);text-decoration:none;font-weight:600;font-size:1.1rem}
+        .cta-bottom{background:var(--primary);color:#fff;padding:50px 0;text-align:center}
+        .cta-bottom h2{font-size:1.8rem;margin-bottom:8px;font-weight:700}
+        .cta-bottom .sub{opacity:.85;margin-bottom:24px;font-weight:300}
+        .cta-bottom a{display:inline-block;background:#fff;color:var(--primary);text-decoration:none;padding:16px 40px;border-radius:8px;font-weight:700;font-size:1.05rem}
+        footer{background:#1a1a1a;color:#9ca3af;padding:24px 0;text-align:center;font-size:.8rem}
+        footer a{color:var(--accent);text-decoration:none}
+        @media(max-width:768px){.hero{padding:50px 0 40px}.services-grid,.reviews-grid{grid-template-columns:1fr}.stats-grid{grid-template-columns:repeat(2,1fr)}}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">General Construction & Engineering Services, Inc.</div>
+            <a href="tel:+13058333370" class="header-cta">Call Now</a>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-badge">General Contractor</div>
+            <h1>Built to Last — Engineering Meets Craftsmanship</h1>
+            <p class="tagline">Licensed general contractor serving Hialeah and Miami-Dade</p>
+            <div class="rating"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span>4.4 / 5 &mdash; 20+ Google Reviews</span></div><br>
+            <a href="tel:+13058333370" class="hero-cta">Free Estimate &rarr; (305) 833-3370</a>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Professional general contractor you can count on</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>General Contracting</h3>
+                    <p>Full-scope project management from permits to punch list. Residential and commercial construction done right.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Structural Engineering</h3>
+                    <p>Engineering-backed builds with structural integrity you can trust. Code-compliant and inspector-ready.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Renovations & Remodels</h3>
+                    <p>Kitchen, bathroom, and whole-home renovations. Modernize your property with quality workmanship.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Commercial Construction</h3>
+                    <p>Office build-outs, retail spaces, and warehouse improvements. On time, on budget, built to code.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="why-us">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <p class="section-subtitle">Results that speak for themselves</p>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>4.4★</h3>
+                    <p>Google Rating</p>
+                </div>
+                <div class="stat-item">
+                    <h3>20+</h3>
+                    <p>Reviews</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Licensed</h3>
+                    <p>Contractor</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Engineering</h3>
+                    <p>Expertise</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="reviews-section">
+        <div class="container">
+            <h2 class="section-title">Customer Reviews</h2>
+            <p class="section-subtitle">What our customers are saying</p>
+            <div class="reviews-grid">
+                <div class="review-card"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"Outstanding service. Professional, on time, and the results were exactly what we needed. Highly recommend to anyone in the area."</p><div class="reviewer">&mdash; Verified Google Review</div></div>
+                <div class="review-card"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"Fair pricing and excellent quality work. They were responsive, showed up when they said they would, and did a fantastic job. Will use again."</p><div class="reviewer">&mdash; Verified Google Review</div></div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Ready to get started? We're one call away.</p>
+            <div class="contact-grid">
+                <div class="contact-item"><h3>Call Us</h3><a href="tel:+13058333370">(305) 833-3370</a><p>Mon &ndash; Sat</p></div>
+                <div class="contact-item"><h3>Location</h3><p>1590 W 73rd St, Hialeah, FL 33014</p></div>
+                <div class="contact-item">
+                    <h3>Service Area</h3>
+                    <p style="color:#37474f;font-weight:600;font-size:1.1rem;">South Florida</p>
+                    <p>Miami-Dade &bull; Broward &bull; Palm Beach</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta-bottom">
+        <div class="container">
+            <h2>Ready for a Free Estimate?</h2>
+            <p class="sub">No pressure. No hidden fees. Just quality work.</p>
+            <a href="tel:+13058333370">Call (305) 833-3370 Now</a>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 General Construction & Engineering Services, Inc. &bull; South Florida &bull; <a href="tel:+13058333370">(305) 833-3370</a></p>
+        </div>
+    </footer>
+</body>
+</html>
