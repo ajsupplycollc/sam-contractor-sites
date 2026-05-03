@@ -497,8 +497,11 @@ def generate_site(target: dict) -> str:
         header .container{{display:flex;justify-content:space-between;align-items:center}}
         .logo{{font-size:1rem;font-weight:700;letter-spacing:0.5px;display:flex;align-items:center;gap:10px}}
         .logo span{{color:var(--accent)}}
+        .header-btns{{display:flex;gap:8px;align-items:center}}
         .header-cta{{background:var(--primary);color:#fff;text-decoration:none;padding:10px 20px;border-radius:6px;font-weight:600;font-size:.85rem;transition:opacity .2s}}
         .header-cta:hover{{opacity:.85}}
+        .header-dm{{background:transparent;color:var(--accent);text-decoration:none;padding:9px 16px;border-radius:6px;font-weight:600;font-size:.85rem;border:1.5px solid var(--accent);transition:opacity .2s;display:inline-flex;align-items:center;gap:5px}}
+        .header-dm:hover{{opacity:.85;background:rgba(255,255,255,.05)}}
         .hero{{padding:80px 0 60px;text-align:center;background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://images.unsplash.com/{hero_img}?w=1400&h=600&fit=crop&crop=center');background-size:cover;background-position:center}}
         .hero-badge{{display:inline-block;border:1px solid var(--accent);color:var(--accent);padding:6px 16px;border-radius:20px;font-size:.75rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:20px}}
         .hero h1{{font-size:clamp(2rem,5vw,3.2rem);font-weight:800;margin-bottom:14px;line-height:1.15}}
@@ -547,7 +550,10 @@ def generate_site(target: dict) -> str:
     <header>
         <div class="container">
             <div class="logo">{logo_html}<span>{name.split()[0]}</span> {' '.join(name.split()[1:]) if len(name.split()) > 1 else ''}</div>
-            <a href="{phone_href}" class="header-cta">{header_cta_text}</a>
+            <div class="header-btns">
+                {'<a href="https://ig.me/m/' + ig + '" class="header-dm" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>DM Us</a>' if ig else ''}
+                <a href="{phone_href}" class="header-cta">{header_cta_text}</a>
+            </div>
         </div>
     </header>
     <section class="hero">
