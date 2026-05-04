@@ -116,6 +116,69 @@ async def send_dm(ws, ig_handle: str, message: str, msg_id: int) -> tuple[bool, 
     except (asyncio.TimeoutError, Exception):
         pass
 
+    # Step 1.5: Follow if not already following
+    print(f"    Checking follow status...", flush=True)
+    follow_js = """
+    (function() {
+        const buttons = document.querySelectorAll('button');
+        for (const btn of buttons) {
+            const txt = btn.textContent.trim();
+            if (txt === 'Follow') {
+                btn.click();
+                return 'followed';
+            }
+            if (txt === 'Following' || txt === 'Requested') {
+                return 'already_following';
+            }
+        }
+        const divBtns = document.querySelectorAll('div[role="button"]');
+        for (const btn of divBtns) {
+            const txt = btn.textContent.trim();
+            if (txt === 'Follow') {
+                btn.click();
+                return 'followed';
+            }
+            if (txt === 'Following' || txt === 'Requested') {
+                return 'already_following';
+            }
+        }
+        return 'no_follow_btn';
+    })()
+    """
+    await ws.send(json.dumps({
+        "id": msg_id, "method": "Runtime.evaluate",
+        "params": {"expression": follow_js}
+    }))
+    msg_id += 1
+
+    follow_result = ''
+    deadline = time.time() + 5
+    while time.time() < deadline:
+        try:
+            resp = await asyncio.wait_for(ws.recv(), timeout=2)
+            data = json.loads(resp)
+            if 'result' in data and 'result' in data.get('result', {}):
+                follow_result = data['result']['result'].get('value', '')
+                if follow_result:
+                    break
+        except (asyncio.TimeoutError, Exception):
+            break
+
+    if follow_result == 'followed':
+        print(f"    Followed @{ig_handle}", flush=True)
+        await asyncio.sleep(2)
+    elif follow_result == 'already_following':
+        print(f"    Already following @{ig_handle}", flush=True)
+    else:
+        print(f"    Follow button not found (got: {follow_result})", flush=True)
+
+    # Drain
+    try:
+        while True:
+            await asyncio.wait_for(ws.recv(), timeout=0.3)
+    except (asyncio.TimeoutError, Exception):
+        pass
+
     # Step 2: Click the "Message" button
     print(f"    Clicking Message button...", flush=True)
     click_js = """

@@ -43,6 +43,10 @@ HERO_IMAGES = {
     'Epoxy Flooring': ['photo-1766801075605-8c036a5c4ec3'],
     'Screen Enclosure': ['photo-1635111300299-e6e677daf7b7'],
     'Stucco Contractor': ['photo-1776589583490-94561e820f01'],
+    'Drywall': ['photo-1776589583490-94561e820f01', 'photo-1649083048770-82e8ffd80431'],
+    'Garage Door': ['photo-1649083048770-82e8ffd80431', 'photo-1653427603096-54342daac941'],
+    'Cabinetry': ['photo-1667484834210-5077027d0558', 'photo-1649083048770-82e8ffd80431'],
+    'Window Cleaning': ['photo-1732376800702-c555160a4f21', 'photo-1649083048770-82e8ffd80431'],
 }
 
 # Color schemes by category
