@@ -1,0 +1,644 @@
+=== SCALED DISCOVERY: All of Florida ===
+Target count: 150
+Search queries: 250 (from 58 cities x 33 categories)
+Existing handles to skip: 189
+
+============================================================
+PHASE 1: Collecting handles from DuckDuckGo
+============================================================
+[1/250] Cocoa Beach appliance repair instagram... 1 found, 1 new (total: 1)
+[2/250] Pembroke Pines epoxy flooring instagram... 0 found, 0 new (total: 1)
+[3/250] Port St Lucie electrician instagram... 1 found, 1 new (total: 2)
+[4/250] Titusville tree trimming instagram... 0 found, 0 new (total: 2)
+[5/250] Vero Beach painter contractor instagram... 4 found, 4 new (total: 6)
+[6/250] Doral screen enclosure instagram... 2 found, 2 new (total: 8)
+[7/250] Jacksonville painter contractor instagram... 7 found, 7 new (total: 15)
+[8/250] Vero Beach lawn care instagram... 0 found, 0 new (total: 15)
+[9/250] Deerfield Beach locksmith instagram... 3 found, 3 new (total: 18)
+[10/250] St Petersburg tree trimming instagram... 0 found, 0 new (total: 18)
+[11/250] Pensacola painter contractor instagram... 4 found, 4 new (total: 22)
+[12/250] Bonita Springs lawn care instagram... 1 found, 1 new (total: 23)
+[13/250] Orange Park roofing contractor instagram... 3 found, 3 new (total: 26)
+[14/250] Jacksonville lawn care instagram... 5 found, 5 new (total: 31)
+[15/250] Stuart carpet cleaning instagram... 7 found, 7 new (total: 38)
+[16/250] Pensacola locksmith instagram... 7 found, 7 new (total: 45)
+[17/250] Jacksonville concrete contractor instagram... 8 found, 8 new (total: 53)
+[18/250] West Palm Beach appliance repair instagram... 2 found, 2 new (total: 55)
+[19/250] Bonita Springs painter contractor instagram... 2 found, 1 new (total: 56)
+[20/250] Clermont locksmith instagram... 7 found, 5 new (total: 61)
+[21/250] Fort Lauderdale locksmith instagram... 4 found, 3 new (total: 64)
+[22/250] Deltona bathroom remodel instagram... 4 found, 4 new (total: 68)
+[23/250] Palm Beach Gardens pool service instagram... 2 found, 2 new (total: 70)
+[24/250] Jupiter kitchen remodel instagram... 8 found, 8 new (total: 78)
+[25/250] Hollywood flooring contractor instagram... 1 found, 1 new (total: 79)
+[26/250] Plantation carpet cleaning instagram... 4 found, 1 new (total: 80)
+[27/250] Sanford appliance repair instagram... 4 found, 4 new (total: 84)
+[28/250] Palm Beach Gardens roofing contractor instagram... 0 found, 0 new (total: 84)
+[29/250] Titusville cabinet installer instagram... 5 found, 5 new (total: 89)
+[30/250] Orlando HVAC instagram... 0 found, 0 new (total: 89)
+[31/250] Melbourne handyman instagram... 4 found, 4 new (total: 93)
+[32/250] Davie deck builder instagram... 4 found, 4 new (total: 97)
+[33/250] Pensacola concrete contractor instagram... 1 found, 1 new (total: 98)
+[34/250] Apopka flooring contractor instagram... 4 found, 4 new (total: 102)
+[35/250] Deerfield Beach painter contractor instagram... 4 found, 2 new (total: 104)
+[36/250] Palm Beach Gardens paver installer instagram... 4 found, 4 new (total: 108)
+[37/250] Fernandina Beach garage door installer instagram... 1 found, 1 new (total: 109)
+[38/250] Fort Lauderdale lawn care instagram... 3 found, 3 new (total: 112)
+[39/250] Tallahassee window cleaning instagram... 4 found, 4 new (total: 116)
+[40/250] Daytona Beach electrician instagram... 8 found, 7 new (total: 123)
+[41/250] Fort Lauderdale roofing contractor instagram... 2 found, 2 new (total: 125)
+[42/250] Cocoa Beach kitchen remodel instagram... 5 found, 3 new (total: 128)
+[43/250] Jacksonville screen enclosure instagram... 5 found, 5 new (total: 133)
+[44/250] Boca Raton HVAC instagram... 7 found, 7 new (total: 140)
+[45/250] Cape Coral gutter cleaning instagram... 3 found, 3 new (total: 143)
+[46/250] Vero Beach gutter cleaning instagram... 2 found, 2 new (total: 145)
+[47/250] Port St Lucie tree trimming instagram... 1 found, 1 new (total: 146)
+[48/250] St Augustine fence installer instagram... 1 found, 1 new (total: 147)
+[49/250] Titusville plumber instagram... 1 found, 1 new (total: 148)
+[50/250] Kissimmee locksmith instagram... 1 found, 1 new (total: 149)
+[51/250] Clermont electrician instagram... 7 found, 7 new (total: 156)
+[52/250] Deltona flooring contractor instagram... 3 found, 3 new (total: 159)
+[53/250] Pensacola roofing contractor instagram... 0 found, 0 new (total: 159)
+[54/250] Coral Springs tree trimming instagram... 3 found, 3 new (total: 162)
+[55/250] Apopka paver installer instagram... 1 found, 1 new (total: 163)
+[56/250] Port Charlotte moving service instagram... 3 found, 3 new (total: 166)
+[57/250] Tallahassee deck builder instagram... 1 found, 1 new (total: 167)
+[58/250] Boynton Beach mold removal instagram... 1 found, 1 new (total: 168)
+[59/250] Clermont appliance repair instagram... 4 found, 4 new (total: 172)
+[60/250] Delray Beach electrician instagram... 1 found, 1 new (total: 173)
+[61/250] Fort Myers tree trimming instagram... 0 found, 0 new (total: 173)
+[62/250] Kissimmee handyman instagram... 4 found, 3 new (total: 176)
+[63/250] Sunrise drywall contractor instagram... 0 found, 0 new (total: 176)
+[64/250] Winter Park carpet cleaning instagram... 7 found, 5 new (total: 181)
+[65/250] Apopka tree trimming instagram... 3 found, 3 new (total: 184)
+[66/250] Tampa tile contractor instagram... 6 found, 6 new (total: 190)
+[67/250] Jacksonville roofing contractor instagram... 4 found, 3 new (total: 193)
+[68/250] Sanford pressure washing instagram... 0 found, 0 new (total: 193)
+[69/250] Cocoa Beach electrician instagram... 0 found, 0 new (total: 193)
+[70/250] St Augustine kitchen remodel instagram... 2 found, 2 new (total: 195)
+[71/250] Ocala appliance repair instagram... 7 found, 4 new (total: 199)
+[72/250] Winter Park window cleaning instagram... 0 found, 0 new (total: 199)
+[73/250] Delray Beach stucco contractor instagram... 0 found, 0 new (total: 199)
+[74/250] Cape Coral HVAC instagram... 1 found, 1 new (total: 200)
+[75/250] Titusville concrete contractor instagram... 4 found, 0 new (total: 200)
+[76/250] Lehigh Acres pressure washing instagram... 0 found, 0 new (total: 200)
+[77/250] Miami drywall contractor instagram... 0 found, 0 new (total: 200)
+[78/250] Port Charlotte garage door installer instagram... 0 found, 0 new (total: 200)
+[79/250] Orlando junk removal instagram... 6 found, 6 new (total: 206)
+[80/250] Cape Coral pool service instagram... 1 found, 1 new (total: 207)
+[81/250] Plantation cabinet installer instagram... 7 found, 7 new (total: 214)
+[82/250] Lakeland appliance repair instagram... 1 found, 0 new (total: 214)
+[83/250] Delray Beach locksmith instagram... 2 found, 2 new (total: 216)
+[84/250] West Palm Beach drywall contractor instagram... 0 found, 0 new (total: 216)
+[85/250] Deerfield Beach bathroom remodel instagram... 3 found, 3 new (total: 219)
+[86/250] Tampa mold removal instagram... 1 found, 1 new (total: 220)
+[87/250] Cape Coral kitchen remodel instagram... 1 found, 1 new (total: 221)
+[88/250] Stuart stucco contractor instagram... 1 found, 1 new (total: 222)
+[89/250] Port Charlotte flooring contractor instagram... 3 found, 1 new (total: 223)
+[90/250] Apopka deck builder instagram... 1 found, 1 new (total: 224)
+[91/250] Sanford concrete contractor instagram... 1 found, 1 new (total: 225)
+[92/250] Deerfield Beach mold removal instagram... 1 found, 1 new (total: 226)
+[93/250] Winter Park plumber instagram... 1 found, 1 new (total: 227)
+[94/250] Pompano Beach moving service instagram... 4 found, 3 new (total: 230)
+[95/250] Cocoa Beach HVAC instagram... 1 found, 1 new (total: 231)
+[96/250] Sanford moving service instagram... 1 found, 1 new (total: 232)
+[97/250] Palm Bay tile contractor instagram... 0 found, 0 new (total: 232)
+[98/250] Orange Park epoxy flooring instagram... 2 found, 2 new (total: 234)
+[99/250] Pompano Beach painter contractor instagram... 0 found, 0 new (total: 234)
+[100/250] Boynton Beach screen enclosure instagram... 0 found, 0 new (total: 234)
+[101/250] Lakeland kitchen remodel instagram... 2 found, 1 new (total: 235)
+[102/250] Homestead flooring contractor instagram... 1 found, 1 new (total: 236)
+[103/250] Delray Beach tree trimming instagram... 2 found, 2 new (total: 238)
+[104/250] Gainesville plumber instagram... 1 found, 0 new (total: 238)
+[105/250] Naples cabinet installer instagram... 8 found, 8 new (total: 246)
+[106/250] Altamonte Springs concrete contractor instagram... 1 found, 0 new (total: 246)
+[107/250] Davie screen enclosure instagram... 1 found, 0 new (total: 246)
+[108/250] Titusville landscaper instagram... 3 found, 3 new (total: 249)
+[109/250] Boca Raton concrete contractor instagram... 3 found, 3 new (total: 252)
+[110/250] Apopka roofing contractor instagram... 5 found, 5 new (total: 257)
+[111/250] Melbourne lawn care instagram... 5 found, 5 new (total: 262)
+[112/250] Clermont window cleaning instagram... 1 found, 1 new (total: 263)
+[113/250] Hialeah moving service instagram... 5 found, 5 new (total: 268)
+[114/250] Lakeland window cleaning instagram... 6 found, 6 new (total: 274)
+[115/250] Miramar appliance repair instagram... 5 found, 5 new (total: 279)
+[116/250] Port Charlotte electrician instagram... 1 found, 1 new (total: 280)
+[117/250] Pembroke Pines landscaper instagram... 8 found, 0 new (total: 280)
+[118/250] Gainesville garage door installer instagram... 1 found, 1 new (total: 281)
+[119/250] Boynton Beach paver installer instagram... 2 found, 2 new (total: 283)
+[120/250] Ocala lawn care instagram... 6 found, 6 new (total: 289)
+[121/250] Homestead kitchen remodel instagram... 5 found, 5 new (total: 294)
+[122/250] Jupiter moving service instagram... 3 found, 3 new (total: 297)
+[123/250] Miami landscaper instagram... 4 found, 3 new (total: 300)
+[124/250] Deltona garage door installer instagram... 1 found, 0 new (total: 300)
+[125/250] Homestead deck builder instagram... 6 found, 6 new (total: 306)
+[126/250] Hialeah roofing contractor instagram... 1 found, 1 new (total: 307)
+[127/250] Naples pressure washing instagram... 0 found, 0 new (total: 307)
+[128/250] Clearwater bathroom remodel instagram... 2 found, 2 new (total: 309)
+[129/250] Plantation locksmith instagram... 0 found, 0 new (total: 309)
+[130/250] Delray Beach drywall contractor instagram... 1 found, 0 new (total: 309)
+[131/250] Boca Raton bathroom remodel instagram... 2 found, 0 new (total: 309)
+[132/250] Orlando moving service instagram... 2 found, 0 new (total: 309)
+[133/250] Orange Park bathroom remodel instagram... 1 found, 0 new (total: 309)
+[134/250] Daytona Beach junk removal instagram... 0 found, 0 new (total: 309)
+[135/250] Jacksonville garage door installer instagram... 0 found, 0 new (total: 309)
+[136/250] Hialeah locksmith instagram... 1 found, 0 new (total: 309)
+[137/250] St Petersburg garage door installer instagram... 1 found, 1 new (total: 310)
+[138/250] Deerfield Beach epoxy flooring instagram... 1 found, 0 new (total: 310)
+[139/250] Boynton Beach concrete contractor instagram... 2 found, 1 new (total: 311)
+[140/250] Hialeah mold removal instagram... 2 found, 0 new (total: 311)
+[141/250] Tampa fence installer instagram... 2 found, 2 new (total: 313)
+[142/250] Palm Beach Gardens stucco contractor instagram... 2 found, 0 new (total: 313)
+[143/250] Jacksonville flooring contractor instagram... 1 found, 0 new (total: 313)
+[144/250] St Augustine tree trimming instagram... 2 found, 0 new (total: 313)
+[145/250] Clermont lawn care instagram... 1 found, 0 new (total: 313)
+[146/250] Clermont garage door installer instagram... 0 found, 0 new (total: 313)
+[147/250] Homestead window cleaning instagram... 1 found, 0 new (total: 313)
+[148/250] Titusville painter contractor instagram... 2 found, 0 new (total: 313)
+[149/250] Orlando tree trimming instagram... 1 found, 0 new (total: 313)
+[150/250] Plantation window cleaning instagram... 2 found, 0 new (total: 313)
+[151/250] Hollywood locksmith instagram... 5 found, 4 new (total: 317)
+[152/250] Sanford electrician instagram... 1 found, 0 new (total: 317)
+[153/250] Naples gutter cleaning instagram... 0 found, 0 new (total: 317)
+[154/250] Daytona Beach pressure washing instagram... 1 found, 0 new (total: 317)
+[155/250] Boynton Beach drywall contractor instagram... 1 found, 0 new (total: 317)
+[156/250] Fernandina Beach handyman instagram... 1 found, 0 new (total: 317)
+[157/250] Sarasota moving service instagram... 2 found, 0 new (total: 317)
+[158/250] Stuart cabinet installer instagram... 1 found, 0 new (total: 317)
+[159/250] Vero Beach window cleaning instagram... 2 found, 0 new (total: 317)
+[160/250] Palm Beach Gardens cabinet installer instagram... 2 found, 0 new (total: 317)
+[161/250] Bradenton kitchen remodel instagram... 2 found, 0 new (total: 317)
+[162/250] Bonita Springs kitchen remodel instagram... 1 found, 0 new (total: 317)
+[163/250] Orlando screen enclosure instagram... 2 found, 0 new (total: 317)
+[164/250] Palm Beach Gardens pressure washing instagram... 1 found, 0 new (total: 317)
+[165/250] Stuart drywall contractor instagram... 2 found, 0 new (total: 317)
+[166/250] Sarasota kitchen remodel instagram... 2 found, 0 new (total: 317)
+[167/250] Deltona fence installer instagram... 2 found, 0 new (total: 317)
+[168/250] Brandon roofing contractor instagram... 2 found, 0 new (total: 317)
+[169/250] Hollywood lawn care instagram... 1 found, 1 new (total: 318)
+[170/250] Bradenton fence installer instagram... 2 found, 0 new (total: 318)
+[171/250] Deltona paver installer instagram... 2 found, 0 new (total: 318)
+[172/250] Bonita Springs roofing contractor instagram... 0 found, 0 new (total: 318)
+[173/250] St Augustine carpet cleaning instagram... 2 found, 0 new (total: 318)
+[174/250] Pompano Beach epoxy flooring instagram... 1 found, 0 new (total: 318)
+[175/250] Panama City garage door installer instagram... 2 found, 0 new (total: 318)
+[176/250] Lehigh Acres gutter cleaning instagram... 2 found, 1 new (total: 319)
+[177/250] Miramar paver installer instagram... 1 found, 0 new (total: 319)
+[178/250] Davie electrician instagram... 2 found, 0 new (total: 319)
+[179/250] Fort Lauderdale bathroom remodel instagram... 9 found, 8 new (total: 327)
+[180/250] Orange Park junk removal instagram... 2 found, 0 new (total: 327)
+[181/250] Bradenton locksmith instagram... 1 found, 0 new (total: 327)
+[182/250] Boca Raton paver installer instagram... 2 found, 0 new (total: 327)
+[183/250] Fort Lauderdale concrete contractor instagram... 2 found, 0 new (total: 327)
+[184/250] Delray Beach pool service instagram... 2 found, 0 new (total: 327)
+[185/250] Deltona tile contractor instagram... 1 found, 0 new (total: 327)
+[186/250] Ocala handyman instagram... 2 found, 0 new (total: 327)
+[187/250] Lakeland moving service instagram... 1 found, 1 new (total: 328)
+[188/250] St Augustine lawn care instagram... 1 found, 0 new (total: 328)
+[189/250] Naples pool service instagram... 1 found, 0 new (total: 328)
+[190/250] Port St Lucie cabinet installer instagram... 2 found, 0 new (total: 328)
+[191/250] Sanford paver installer instagram... 2 found, 0 new (total: 328)
+[192/250] Bradenton stucco contractor instagram... 2 found, 2 new (total: 330)
+[193/250] Jacksonville handyman instagram... 2 found, 0 new (total: 330)
+[194/250] St Petersburg junk removal instagram... 2 found, 0 new (total: 330)
+[195/250] Deltona appliance repair instagram... 5 found, 1 new (total: 331)
+[196/250] Daytona Beach handyman instagram... 1 found, 0 new (total: 331)
+[197/250] Lehigh Acres plumber instagram... 2 found, 0 new (total: 331)
+[198/250] Palm Beach Gardens window cleaning instagram... 2 found, 0 new (total: 331)
+[199/250] Lehigh Acres moving service instagram... 0 found, 0 new (total: 331)
+[200/250] Delray Beach carpet cleaning instagram... 2 found, 0 new (total: 331)
+[201/250] Doral plumber instagram... 2 found, 0 new (total: 331)
+[202/250] Winter Park bathroom remodel instagram... 1 found, 0 new (total: 331)
+[203/250] Winter Park concrete contractor instagram... 3 found, 3 new (total: 334)
+[204/250] Doral deck builder instagram... 1 found, 0 new (total: 334)
+[205/250] Pensacola drywall contractor instagram... 1 found, 0 new (total: 334)
+[206/250] Bonita Springs handyman instagram... 2 found, 0 new (total: 334)
+[207/250] Deltona stucco contractor instagram... 2 found, 0 new (total: 334)
+[208/250] Sarasota appliance repair instagram... 2 found, 0 new (total: 334)
+[209/250] Delray Beach roofing contractor instagram... 2 found, 0 new (total: 334)
+[210/250] Homestead pool service instagram... 2 found, 0 new (total: 334)
+[211/250] Homestead paver installer instagram... 2 found, 0 new (total: 334)
+[212/250] Doral pool service instagram... 2 found, 0 new (total: 334)
+[213/250] Pompano Beach carpet cleaning instagram... 1 found, 1 new (total: 335)
+[214/250] Winter Park tree trimming instagram... 3 found, 3 new (total: 338)
+[215/250] Clermont gutter cleaning instagram... 4 found, 4 new (total: 342)
+[216/250] Plantation appliance repair instagram... 0 found, 0 new (total: 342)
+[217/250] Sunrise pressure washing instagram... 4 found, 4 new (total: 346)
+[218/250] Port Charlotte pressure washing instagram... 7 found, 6 new (total: 352)
+[219/250] Ocala moving service instagram... 3 found, 3 new (total: 355)
+[220/250] Fort Myers fence installer instagram... 7 found, 4 new (total: 359)
+[221/250] Stuart electrician instagram... 0 found, 0 new (total: 359)
+[222/250] Cocoa Beach mold removal instagram... 2 found, 2 new (total: 361)
+[223/250] Fernandina Beach lawn care instagram... 1 found, 0 new (total: 361)
+[224/250] Kissimmee appliance repair instagram... 4 found, 3 new (total: 364)
+[225/250] Winter Park deck builder instagram... 2 found, 0 new (total: 364)
+[226/250] West Palm Beach tile contractor instagram... 1 found, 0 new (total: 364)
+[227/250] Boca Raton electrician instagram... 1 found, 1 new (total: 365)
+[228/250] Vero Beach tile contractor instagram... 1 found, 1 new (total: 366)
+[229/250] Pensacola moving service instagram... 4 found, 2 new (total: 368)
+[230/250] Altamonte Springs locksmith instagram... 1 found, 0 new (total: 368)
+[231/250] Orange Park tile contractor instagram... 0 found, 0 new (total: 368)
+[232/250] Plantation handyman instagram... 4 found, 2 new (total: 370)
+[233/250] Lakeland lawn care instagram... 2 found, 0 new (total: 370)
+[234/250] Fort Lauderdale paver installer instagram... 0 found, 0 new (total: 370)
+[235/250] Coral Springs locksmith instagram... 1 found, 1 new (total: 371)
+[236/250] Naples lawn care instagram... 5 found, 5 new (total: 376)
+[237/250] Kissimmee bathroom remodel instagram... 3 found, 1 new (total: 377)
+[238/250] Sunrise deck builder instagram... 2 found, 0 new (total: 377)
+[239/250] Miami electrician instagram... 1 found, 0 new (total: 377)
+[240/250] St Petersburg epoxy flooring instagram... 2 found, 0 new (total: 377)
+[241/250] Coral Springs pool service instagram... 1 found, 0 new (total: 377)
+[242/250] Lehigh Acres tree trimming instagram... 2 found, 0 new (total: 377)
+[243/250] Coral Springs tile contractor instagram... 1 found, 1 new (total: 378)
+[244/250] Pembroke Pines handyman instagram... 1 found, 0 new (total: 378)
+[245/250] Altamonte Springs stucco contractor instagram... 2 found, 0 new (total: 378)
+[246/250] Orange Park fence installer instagram... 2 found, 2 new (total: 380)
+[247/250] Plantation stucco contractor instagram... 5 found, 5 new (total: 385)
+[248/250] Homestead screen enclosure instagram... 2 found, 0 new (total: 385)
+[249/250] Fernandina Beach window cleaning instagram... 5 found, 4 new (total: 389)
+[250/250] Orange Park paver installer instagram... 3 found, 3 new (total: 392)
+
+Phase 1 complete: 392 unique handles to check
+
+Checkpoint saved: C:\Users\ajsup\sam_contractor_sites/scaled_raw_handles.json
+
+============================================================
+PHASE 2: Checking IG profiles for websites
+============================================================
+  [1] @appliance_repair_: NO WEBSITE - TARGET [1/150] (Appliance Repair, Florida)
+  [2] @electricians2: NO WEBSITE - TARGET [2/150] (Electrical, Port St Lucie, FL)
+  [3] @a1paintingofverobeach: NO WEBSITE - TARGET [3/150] (Painting, Hialeah, FL)
+  [4] @joes_painting: HAS WEBSITE - skip
+  [5] @cabarenovation: HAS WEBSITE - skip
+  [6] @sailfish_painting_llc_: NO WEBSITE - TARGET [4/150] (Painting, Florida)
+  [7] @screen.enclosure: NO WEBSITE - TARGET [5/150] (Screen Enclosure, Doral, FL)
+  [8] @ajscreenenclosure: NO WEBSITE - TARGET [6/150] (Kitchen Remodel, Miami, FL)
+  [9] @paintingcontractor: HAS WEBSITE - skip
+  [10] @performancepainting1: NO WEBSITE - TARGET [7/150] (Painting, Jacksonville, FL)
+  [11] @contractorspainting: NO WEBSITE - TARGET [8/150] (Painting, Jacksonville, FL)
+  [12] @coastalpaintingservicesllc: NO WEBSITE - TARGET [9/150] (Painting, Jacksonville, FL)
+  [13] @ckpainting904: NO WEBSITE - TARGET [10/150] (Painting, Jacksonville, FL)
+  [14] @mistercontractors: NO WEBSITE - TARGET [11/150] (Painting, Jacksonville, FL)
+  [15] @housepainting.jacksonville.fl: HAS WEBSITE - skip
+  [16] @locksmithdeerfieldbeach: NO WEBSITE - TARGET [12/150] (Locksmith, Florida)
+  [17] @locksmithdeerfieldbeachfl: HAS WEBSITE - skip
+  [19] @emerald_coast_painters: NO WEBSITE - TARGET [13/150] (Painting, Pensacola, FL)
+  [20] @ccpaintingcontractors: HAS WEBSITE - skip
+  [21] @misticonstruction: NO WEBSITE - TARGET [14/150] (Painting, Pensacola, FL)
+  [22] @pensacola_painters_pro: NO WEBSITE - TARGET [15/150] (Painting, Pensacola, FL)
+  [23] @southwestqualitylawn: HAS WEBSITE - skip
+  [24] @orangecontractingroofing: NO WEBSITE - TARGET [16/150] (Roofing, Florida)
+  [25] @orangeconstructioninc: NO WEBSITE - TARGET [17/150] (Roofing, Florida)
+  [26] @orangeblossomroofing: HAS WEBSITE - skip
+  [27] @jacksonvillelawncare: NO WEBSITE - TARGET [18/150] (Lawn Care, Jacksonville, FL)
+  [28] @shineslawncare: HAS WEBSITE - skip
+  [29] @jacksonville_lawn_services: NO WEBSITE - TARGET [19/150] (Lawn Care, Jacksonville, FL)
+  [30] @coastallandscapingjax: NO WEBSITE - TARGET [20/150] (Lawn Care, Jacksonville, FL)
+  [31] @vibrantlawncarellc: HAS WEBSITE - skip
+  [32] @stuarts_carpet_care: NO WEBSITE - TARGET [21/150] (Carpet Cleaning, Florida)
+  [33] @stuartscleaningservices: NO WEBSITE - TARGET [22/150] (Carpet Cleaning, Florida)
+  [34] @carpet.__.cleaning: NO WEBSITE - TARGET [23/150] (Carpet Cleaning, Florida)
+  [35] @affordablecarpetcleaning_: NO WEBSITE - TARGET [24/150] (Carpet Cleaning, Florida)
+  [36] @stewartcleaningsolutions: NO WEBSITE - TARGET [25/150] (Carpet Cleaning, Florida)
+  >> Progress saved: 25 targets
+  [37] @carpets.cleaning_: NO WEBSITE - TARGET [26/150] (Carpet Cleaning, Florida)
+  [38] @cliff_carpet_cleaning: NO WEBSITE - TARGET [27/150] (Carpet Cleaning, Florida)
+  [39] @samlocksmithpensacola: NO WEBSITE - TARGET [28/150] (Locksmith, Pensacola, FL)
+  [40] @id_locksmith: NO WEBSITE - TARGET [29/150] (Appliance Repair, Pensacola, FL)
+  [41] @locksrus.pensacola: HAS WEBSITE - skip
+  [42] @awlocksmith: NO WEBSITE - TARGET [30/150] (Locksmith, Pensacola, FL)
+  [43] @dalocksmith: HAS WEBSITE - skip
+  [44] @24hourpensacolalocksmith: HAS WEBSITE - skip
+  [45] @expert_locksmith: NO WEBSITE - TARGET [31/150] (Locksmith, Pensacola, FL)
+  [46] @jax_concrete_contractors: NO WEBSITE - TARGET [32/150] (Concrete Contractor, Jacksonville, FL)
+  [47] @jacksonvilleconcreteco: NO WEBSITE - TARGET [33/150] (Concrete Contractor, Jacksonville, FL)
+  [48] @qualityconcreteconstructionfl: HAS WEBSITE - skip
+  [49] @hudstoneconstruction: NO WEBSITE - TARGET [34/150] (Concrete Contractor, Jacksonville, FL)
+  [50] @jacksonvillefloridalconcrete: HAS WEBSITE - skip
+  [51] @j_constructionconcrete: NO WEBSITE - TARGET [35/150] (Landscaping, Jacksonville, FL)
+  [52] @seamlessconcretefl: NO WEBSITE - TARGET [36/150] (Concrete Contractor, Jacksonville, FL)
+  [53] @concreteconstruction: NO WEBSITE - TARGET [37/150] (Concrete Contractor, Jacksonville, FL)
+  [54] @appliancerepairprofessionals: HAS WEBSITE - skip
+  [55] @wefixappliance_official: NO WEBSITE - TARGET [38/150] (Garage Door, West Palm Beach, FL)
+  [56] @paintwithapex: HAS WEBSITE - skip
+  [57] @locksmithclermont: HAS WEBSITE - skip
+  [58] @locksmith: NO WEBSITE - TARGET [39/150] (Carpet Cleaning, Florida)
+  [59] @robert_the_locksmith: NO WEBSITE - TARGET [40/150] (Locksmith, Florida)
+  [60] @confidencelocksmith: NO WEBSITE - TARGET [41/150] (Locksmith, Florida)
+  [61] @jointhelocksmith: NO WEBSITE - TARGET [42/150] (Painting, Coral Springs, FL)
+  [62] @lock_smith_fortlauderdale: HAS WEBSITE - skip
+  [63] @sunlocksmith: NO WEBSITE - TARGET [43/150] (Kitchen Remodel, Fort Lauderdale, FL)
+  [64] @locksmith_fortlauderdale: HAS WEBSITE - skip
+  [65] @bathrooms_of_insta: NO WEBSITE - TARGET [44/150] (Bathroom Remodel, Florida)
+  [66] @remodel_your_bathroom: NO WEBSITE - TARGET [45/150] (Bathroom Remodel, Florida)
+  [67] @bathroom_design_remodel: NO WEBSITE - TARGET [46/150] (Bathroom Remodel, Florida)
+  [68] @smallbathroomdesign: NO WEBSITE - TARGET [47/150] (Bathroom Remodel, Florida)
+  [69] @palmbeachpoolspa: NO WEBSITE - TARGET [48/150] (Pool Service, Palm Beach County, FL)
+  [70] @shark_poolandspa: NO WEBSITE - TARGET [49/150] (Pool Service, West Palm Beach, FL)
+  [71] @jupiterremodeling: NO WEBSITE - TARGET [50/150] (Kitchen Remodel, Florida)
+] @kitchendesignstudio_more: HAS WEBSITE - skip
+  [27] @setkitchenscoralsprings: NO WEBSITE - TARGET [17/150] (Window Cleaning, Coral Springs, FL)
+  [28] @kitchen_art.usa: NO WEBSITE - TARGET [18/150] (Window Cleaning, Ocala, FL)
+  [29] @qcimold: NO WEBSITE - TARGET [19/150] (Kitchen Remodel, Homestead, FL)
+  [30] @handymancharlotte_: NO WEBSITE - TARGET [20/150] (Bathroom Remodel, Florida)
+  >> Progress saved: 20 targets
+  [31] @portcharlotte_fl: NO WEBSITE - TARGET [21/150] (Bathroom Remodel, Florida)
+  [32] @thecharlottehandyman: HAS WEBSITE - skip
+  [33] @epoxy_flooring: NO WEBSITE - TARGET [22/150] (Pool Service, Pompano Beach, FL)
+  [34] @epoxyflooringgroup: NO WEBSITE - TARGET [23/150] (Mold Removal, Pompano Beach, FL)
+  [35] @epoxyexpertsflooring: NO WEBSITE - TARGET [24/150] (Mold Removal, Pompano Beach, FL)
+  [36] @crystalflowepoxy: NO WEBSITE - TARGET [25/150] (Flooring, Pompano Beach, FL)
+  [37] @palmbeachepoxy: HAS WEBSITE - skip
+  [38] @epoxy.moore: NO WEBSITE - TARGET [26/150] (Flooring, West Palm Beach, FL)
+  [39] @locksmith954: HAS WEBSITE - skip
+  [41] @awlocksmith: HAS WEBSITE - skip
+  [42] @sunrise: NO WEBSITE - TARGET [27/150] (Locksmith, Florida)
+  [43] @expert_locksmith: HAS WEBSITE - skip
+  [44] @abovebeyondtreeservicesinc: HAS WEBSITE - skip
+  [45] @toptiertreetrimming: HAS WEBSITE - skip
+  [46] @tim.tree_service: NO WEBSITE - TARGET [28/150] (Tree Service, Jacksonville, FL)
+  [47] @treecofl: HAS WEBSITE - skip
+  [48] @coconuttreetrimming: HAS WEBSITE - skip
+  [49] @hollywood_blvd_landscapes: NO WEBSITE - TARGET [29/150] (Landscaping, Hollywood, FL)
+  [50] @hollywood_landscaping: NO WEBSITE - TARGET [30/150] (Landscaping, Hollywood, FL)
+  >> Progress saved: 30 targets
+  [51] @celebrity_landscaper: HAS WEBSITE - skip
+  [52] @hollywood_landscaping_n_detail: HAS WEBSITE - skip
+  [53] @the.modern.landscaper: NO WEBSITE - TARGET [31/150] (Landscaping, Hollywood, FL)
+  [54] @artisanlandscapes: NO WEBSITE - TARGET [32/150] (Landscaping, Hollywood, FL)
+  [55] @hollywoodlandscaper: HAS WEBSITE - skip
+  [56] @totalgutterclean: NO WEBSITE - TARGET [33/150] (Gutter Cleaning, Florida)
+  [57] @ag_coastal_cleaning: HAS WEBSITE - skip
+  [58] @mcguttersinc: NO WEBSITE - TARGET [34/150] (Gutter Cleaning, Naples, FL)
+  [59] @spotlesswindowcleaningllc: HAS WEBSITE - skip
+  [60] @vbcbysandra: HAS WEBSITE - skip
+  [61] @portstlucietreetrimming: HAS WEBSITE - skip
+  [62] @staugustinefenceoutdoor: HAS WEBSITE - skip
+  [63] @stluciejunkremoval: HAS WEBSITE - skip
+  [65] @cmcelectric2025: HAS WEBSITE - skip
+  [67] @electrician: NO WEBSITE - TARGET [35/150] (Electrical, Gainesville, FL)
+  [68] @cameron.clermont: NO WEBSITE - TARGET [36/150] (Electrical, Gainesville, FL)
+  [69] @electrician_life: HAS WEBSITE - skip
+  [70] @electrician_ig: NO WEBSITE - TARGET [37/150] (Electrical, Gainesville, FL)
+  [71] @the360electrician: NO WEBSITE - TARGET [38/150] (Electrical, Gainesville, FL)
+  [72] @flooring_contractor_: HAS WEBSITE - skip
+  [73] @flooringcontractors: NO WEBSITE - TARGET [39/150] (Flooring, Florida)
+  [74] @floortona_llc: NO WEBSITE - TARGET [40/150] (Flooring, Florida)
+  >> Progress saved: 40 targets
+  [75] @floridastucco: HAS WEBSITE - skip
+  [76] @arcus.stuccofl: NO WEBSITE - TARGET [41/150] (Roofing, Pensacola, FL)
+  [77] @stucco.fl: HAS WEBSITE - skip
+  [78] @hollywoodfencellc: HAS WEBSITE - skip
+  [79] @fencehollywood_: NO WEBSITE - TARGET [42/150] (Fence Contractor, Hollywood, FL)
+  [80] @hollywoodfenceco: NO WEBSITE - TARGET [43/150] (Fence Contractor, Hollywood, FL)
+  [81] @ppinespd: HAS WEBSITE - skip
+  [82] @hillman_handyman_service: NO WEBSITE - TARGET [44/150] (Handyman, Hialeah, FL)
+  [83] @dailyhandyman: HAS WEBSITE - skip
+  [84] @the_hand_e_man: HAS WEBSITE - skip
+  [85] @adboftallahassee: NO WEBSITE - TARGET [45/150] (Deck Building, Tallahassee, FL)
+  [86] @servproboyntonbeach: HAS WEBSITE - skip
+  [87] @mrappliance_clermont_apopka: HAS WEBSITE - skip
+  [88] @completeappliancerepair: HAS WEBSITE - skip
+  [89] @premiumappliancesrepair: HAS WEBSITE - skip
+  [90] @integral_appliance_repair: HAS WEBSITE - skip
+  [91] @contardo_electric: HAS WEBSITE - skip
+  [92] @valentinehandymanservices: HAS WEBSITE - skip
+  [94] @tasksmartpro: HAS WEBSITE - skip
+  [95] @bradentonpressurewashing: NO WEBSITE - TARGET [46/150] (Pressure Washing, Sarasota, FL)
+  [96] @flpressurekings: NO WEBSITE - TARGET [47/150] (Pressure Washing, Sarasota, FL)
+  [97] @procleanpressurewashingofb: HAS WEBSITE - skip
+  [98] @stuart_electrical: NO WEBSITE - TARGET [48/150] (Electrical, Florida)
+  [99] @stuartpearceelectrical: HAS WEBSITE - skip
+  [100] @stuart_electric317: HAS WEBSITE - skip
+  [101] @stuart_the_electrician: NO WEBSITE - TARGET [49/150] (Electrical, Florida)
+  [102] @seelectrical: HAS WEBSITE - skip
+  [103] @flbrandonroofing: NO WEBSITE - TARGET [50/150] (Roofing, Tampa, FL)
+  >> Progress saved: 50 targets
+  [104] @brandonjroofing: NO WEBSITE - TARGET [51/150] (Roofing, Florida)
+  [105] @brandonroofing: NO WEBSITE - TARGET [52/150] (Roofing, Florida)
+  [106] @davieswindowcleaningservices: NO WEBSITE - TARGET [53/150] (Window Cleaning, Florida)
+  [107] @daveswindowcleaning: HAS WEBSITE - skip
+  [108] @daviswindowcleaningco: NO WEBSITE - TARGET [54/150] (Pressure Washing, Florida)
+  [109] @rocheyswindowcleaning: NO WEBSITE - TARGET [55/150] (Window Cleaning, Florida)
+  [110] @davis_window_cleaning: HAS WEBSITE - skip
+  [111] @dwcmail: NO WEBSITE - TARGET [56/150] (Window Cleaning, Florida)
+  [112] @titusconcrete: NO WEBSITE - TARGET [57/150] (Concrete Contractor, Florida)
+  [113] @qualityconcreteconstructionllc: HAS WEBSITE - skip
+  [114] @cityoftitusville: HAS WEBSITE - skip
+  [115] @jax_concrete_contractors: HAS WEBSITE - skip
+  [116] @palmbeachplumbing: NO WEBSITE - TARGET [58/150] (Plumbing, Palm Bay, FL)
+  [117] @palmplumbinginc: NO WEBSITE - TARGET [59/150] (Plumbing, Palm Bay, FL)
+  [118] @inletmechanical: HAS WEBSITE - skip
+  [119] @palm.plumberair: HAS WEBSITE - skip
+  [120] @jbconcreteservices: NO WEBSITE - TARGET [60/150] (Concrete Contractor, Orlando, FL)
+  >> Progress saved: 60 targets
+  [121] @clarkconcreteconstruction: NO WEBSITE - TARGET [61/150] (Pool Service, Florida)
+  [122] @contractors.of.insta: NO WEBSITE - TARGET [62/150] (Pool Service, Miami, FL)
+  [123] @concretecityconstruction: NO WEBSITE - TARGET [63/150] (Concrete Contractor, Melbourne, FL)
+  [124] @broward_tile_guys: NO WEBSITE - TARGET [64/150] (Flooring, Fort Lauderdale, FL)
+  [126] @builtbybespoke: NO WEBSITE - TARGET [65/150] (Pool Service, Miami, FL)
+  [127] @korteshandymanservices: NO WEBSITE - TARGET [66/150] (Handyman, Florida)
+  [128] @capecoralpoolsrv: NO WEBSITE - TARGET [67/150] (Pool Service, Cape Coral, FL)
+  [129] @thecabinetinstaller: NO WEBSITE - TARGET [68/150] (Drywall, Doral, FL)
+  [130] @plantationcabinetryhhi: HAS WEBSITE - skip
+  [131] @the.cabinetinstaller: NO WEBSITE - TARGET [69/150] (Drywall, Doral, FL)
+  [132] @cabinetinstaller: NO WEBSITE - TARGET [70/150] (Drywall, Doral, FL)
+  >> Progress saved: 70 targets
+  [133] @install_cabinet: NO WEBSITE - TARGET [71/150] (Painting, Doral, FL)
+  [134] @cabinet_assembler_installer_: NO WEBSITE - TARGET [72/150] (Painting, Doral, FL)
+  [135] @thecabinetpros.inc: NO WEBSITE - TARGET [73/150] (Drywall, Doral, FL)
+  [136] @appliance_repair_: NO WEBSITE - TARGET [74/150] (Appliance Repair, Florida)
+  [137] @locksmithlandllc: NO WEBSITE - TARGET [75/150] (Flooring, Palm Beach County, FL)
+  [139] @mateo_drywall_finish: NO WEBSITE - TARGET [76/150] (Drywall, West Palm Beach, FL)
+  [140] @amdrywall: HAS WEBSITE - skip
+  [141] @customdrywall: NO WEBSITE - TARGET [77/150] (Drywall, Miramar, FL)
+  [142] @psl_appliances: NO WEBSITE - TARGET [78/150] (Appliance Repair, Port St Lucie, FL)
+  [143] @stlucieappliances: NO WEBSITE - TARGET [79/150] (Appliance Repair, Port St Lucie, FL)
+  [144] @pristine_appliance: HAS WEBSITE - skip
+  [145] @jstreetrimming: HAS WEBSITE - skip
+  [146] @cityofpbg: NO WEBSITE - TARGET [80/150] (Lawn Care, Palm Beach County, FL)
+  >> Progress saved: 80 targets
+  [147] @altamontespgs: NO WEBSITE - TARGET [81/150] (Bathroom Remodel, Florida)
+  [148] @smallbathroomdesign: NO WEBSITE - TARGET [82/150] (Bathroom Remodel, Florida)
+  [149] @kitchenremodelingdesign: HAS WEBSITE - skip
+  [150] @stuartpressurewashinghandyman: NO WEBSITE - TARGET [83/150] (Handyman, Florida)
+  [151] @hte.contractors: NO WEBSITE - TARGET [84/150] (Tile Contractor, Miami, FL)
+  [152] @palmbeachjunkremoval: NO WEBSITE - TARGET [85/150] (Moving Service, West Palm Beach, FL)
+  [154] @palmbaycabinetco: NO WEBSITE - TARGET [86/150] (Cabinetry, Palm Bay, FL)
+  [155] @baycabinetinstalls: NO WEBSITE - TARGET [87/150] (Cabinetry, Palm Bay, FL)
+  [156] @palmcraftinterior: NO WEBSITE - TARGET [88/150] (Garage Door, Tampa, FL)
+  [157] @guttersgang: HAS WEBSITE - skip
+  [158] @garage_door_installer517: NO WEBSITE - TARGET [89/150] (Garage Door, Florida)
+  [159] @kitchens_of_insta: NO WEBSITE - TARGET [90/150] (Kitchen Remodel, Hollywood, FL)
+  >> Progress saved: 90 targets
+  [160] @moldremediation: HAS WEBSITE - skip
+  [161] @aplusmoldremediationinc: NO WEBSITE - TARGET [91/150] (Mold Removal, Florida)
+  [162] @360painting.coralsprings: HAS WEBSITE - skip
+  [163] @ccmold: NO WEBSITE - TARGET [92/150] (Paver Installation, Pembroke Pines, FL)
+  [164] @acres_lawncare: NO WEBSITE - TARGET [93/150] (Lawn Care, Florida)
+  [165] @lehighlawnsandlandscaping: NO WEBSITE - TARGET [94/150] (Landscaping, Florida)
+  [166] @pandptreescape: HAS WEBSITE - skip
+  [167] @landscapingpembrokepines: NO WEBSITE - TARGET [95/150] (Landscaping, Pembroke Pines, FL)
+  [168] @nicholaspembrokedesign: HAS WEBSITE - skip
+  [169] @jimbelford1: HAS WEBSITE - skip
+  [170] @landscapeartinc: NO WEBSITE - TARGET [96/150] (Landscaping, Miami, FL)
+  [171] @pembroke_pines_landscaping: NO WEBSITE - TARGET [97/150] (Landscaping, Pembroke Pines, FL)
+  [172] @lonepinelandscapes: NO WEBSITE - TARGET [98/150] (Landscaping, Pembroke Pines, FL)
+  [174] @screen.enclosure: HAS WEBSITE - skip
+  [175] @tituslandscapeinc: HAS WEBSITE - skip
+  [176] @titusvillepa: HAS WEBSITE - skip
+  [177] @visittitusvillefl: NO WEBSITE - TARGET [99/150] (Window Cleaning, Florida)
+  [178] @stcmbocaratonconcrete: HAS WEBSITE - skip
+  [179] @thebocaratonconcretecompany_: HAS WEBSITE - skip
+  [181] @roofingcontractormedia: HAS WEBSITE - skip
+  [182] @bestroofcontracting: NO WEBSITE - TARGET [100/150] (Roofing, Cape Coral, FL)
+  >> Progress saved: 100 targets
+  [183] @apcroofingllc: HAS WEBSITE - skip
+  [184] @perryroofingcontractors: NO WEBSITE - TARGET [101/150] (Roofing, Cape Coral, FL)
+  [185] @epc_contractors: HAS WEBSITE - skip
+  [186] @melbournelawncare: HAS WEBSITE - skip
+  [187] @melbourne_lawncare: NO WEBSITE - TARGET [102/150] (Painting, Melbourne, FL)
+  [188] @melbournewestlawncare: NO WEBSITE - TARGET [103/150] (Painting, Melbourne, FL)
+  [189] @lawn_mowing_melbourne: NO WEBSITE - TARGET [104/150] (Painting, Melbourne, FL)
+  [190] @lawnworks.melbourne: NO WEBSITE - TARGET [105/150] (Painting, Melbourne, FL)
+  [191] @itsclearlyclarity: HAS WEBSITE - skip
+  [192] @letsgetmovinghialeah: HAS WEBSITE - skip
+  [193] @opdhialeah: HAS WEBSITE - skip
+  [194] @alexmoving: NO WEBSITE - TARGET [106/150] (Gutter Cleaning, Miami, FL)
+  [195] @cityofhialeah: NO WEBSITE - TARGET [107/150] (Flooring, Hialeah, FL)
+  [196] @dealex_movingservices_llc: NO WEBSITE - TARGET [108/150] (Gutter Cleaning, Melbourne, FL)
+  [197] @lakelandwindowcleaning: HAS WEBSITE - skip
+  [198] @lakelandclean: HAS WEBSITE - skip
+  [199] @lakelandwd: HAS WEBSITE - skip
+  [200] @cleanlakeland: HAS WEBSITE - skip
+  [201] @lakelandcleaningservices: HAS WEBSITE - skip
+  [202] @clean_viewwindowcleaning: NO WEBSITE - TARGET [109/150] (Garage Door, Pembroke Pines, FL)
+  [203] @sunrise_plumbing: NO WEBSITE - TARGET [110/150] (Plumbing, Florida)
+  >> Progress saved: 110 targets
+  [204] @sunrise_plumbing_savannah: NO WEBSITE - TARGET [111/150] (Plumbing, Florida)
+  [206] @sunriseplumbingtexas: HAS WEBSITE - skip
+  [207] @sunriseplumbaz: HAS WEBSITE - skip
+  [208] @portelectriccontractors: NO WEBSITE - TARGET [112/150] (Plumbing, Lakeland, FL)
+  [209] @garagedoorinstaller: NO WEBSITE - TARGET [113/150] (Garage Door, Florida)
+  [210] @thepavinglady: NO WEBSITE - TARGET [114/150] (Concrete Contractor, Homestead, FL)
+  [212] @ocalalawns: HAS WEBSITE - skip
+  [213] @cleancutofocala: HAS WEBSITE - skip
+  [214] @ocalafusionlawncare: NO WEBSITE - TARGET [115/150] (Landscaping, Cape Coral, FL)
+  [215] @emeraldlawncareocalafl: HAS WEBSITE - skip
+  [216] @keiths_lawn_care: HAS WEBSITE - skip
+  [217] @lightninglawncare2024: HAS WEBSITE - skip
+  [218] @homestead_remodeling: HAS WEBSITE - skip
+  [219] @homesteadkitchens: HAS WEBSITE - skip
+  [220] @homesteadkitchen_: NO WEBSITE - TARGET [116/150] (Electrical, Homestead, FL)
+  [221] @homestead_kitchen_: NO WEBSITE - TARGET [117/150] (Electrical, Homestead, FL)
+  [222] @homesteadkitchenandbar: HAS WEBSITE - skip
+  [223] @jupitersmoving: NO WEBSITE - TARGET [118/150] (Gutter Cleaning, Tallahassee, FL)
+  [224] @jupiterservices: NO WEBSITE - TARGET [119/150] (Gutter Cleaning, Tallahassee, FL)
+  [225] @jupiterpackersmovers: NO WEBSITE - TARGET [120/150] (Gutter Cleaning, Tallahassee, FL)
+  >> Progress saved: 120 targets
+  [226] @landscaping_miami: NO WEBSITE - TARGET [121/150] (Landscaping, Miami, FL)
+  [227] @landscaping_miami_: NO WEBSITE - TARGET [122/150] (Landscaping, Miami, FL)
+  [228] @landscapeconsultantsmiami: NO WEBSITE - TARGET [123/150] (Landscaping, Miami, FL)
+  [229] @sunrise_concrete_: NO WEBSITE - TARGET [124/150] (Painting, Florida)
+  [230] @sunriseconcreteltd: HAS WEBSITE - skip
+  [231] @sunrise_construction: NO WEBSITE - TARGET [125/150] (Roofing, Florida)
+  [232] @sunrisecontractor: NO WEBSITE - TARGET [126/150] (Concrete Contractor, Florida)
+  [234] @sunriseconstructioninc: HAS WEBSITE - skip
+  [235] @dgdrywall: HAS WEBSITE - skip
+  [238] @bathrooms_of_insta: NO WEBSITE - TARGET [127/150] (Bathroom Remodel, Bradenton, FL)
+  [239] @hialeahlocksmith: HAS WEBSITE - skip
+  [241] @chirinolocksmith: NO WEBSITE - TARGET [128/150] (Flooring, Hialeah, FL)
+  [242] @locksmithhialeah: HAS WEBSITE - skip
+  [243] @fastactlocksmith: HAS WEBSITE - skip
+  [244] @st._peters_garage_door_repair: NO WEBSITE - TARGET [129/150] (Fence Contractor, Palm Beach County, FL)
+  [245] @paver_contractor: NO WEBSITE - TARGET [130/150] (Concrete Contractor, Doral, FL)
+  >> Progress saved: 130 targets
+  [247] @flooringjacksonville: NO WEBSITE - TARGET [131/150] (Roofing, Jacksonville, FL)
+  [248] @oldcitytreeservice: HAS WEBSITE - skip
+  [249] @augustinetrees: HAS WEBSITE - skip
+  [250] @staugustineconnection: NO WEBSITE - TARGET [132/150] (Plumbing, Kissimmee, FL)
+  [251] @clermontlawncare: NO WEBSITE - TARGET [133/150] (Deck Building, Sarasota, FL)
+  [252] @lawndoctororlando: NO WEBSITE - TARGET [134/150] (Deck Building, Orlando, FL)
+  [253] @perfect_lawn_maintenance: HAS WEBSITE - skip
+  [254] @lawncarebusinesssuccess: HAS WEBSITE - skip
+  [255] @garagedoorexpertsclermont: HAS WEBSITE - skip
+  [256] @homesteadwindows: HAS WEBSITE - skip
+  [257] @hollywoodlocksmith: NO WEBSITE - TARGET [135/150] (Locksmith, Hollywood, FL)
+  [258] @hollywoodparkl: HAS WEBSITE - skip
+  [261] @daytona.pressure: HAS WEBSITE - skip
+  [262] @mutch2dohandyman: NO WEBSITE - TARGET [136/150] (Handyman, Cape Coral, FL)
+  [263] @sunshine.movers.srq: NO WEBSITE - TARGET [137/150] (Cabinetry, Sarasota, FL)
+  [264] @strongermoving: NO WEBSITE - TARGET [138/150] (Cabinetry, Sarasota, FL)
+  [265] @psarasotafl: HAS WEBSITE - skip
+  [267] @palms.pressurewashing: NO WEBSITE - TARGET [139/150] (Pressure Washing, Sarasota, FL)
+  [268] @hollywoodlawncare: HAS WEBSITE - skip
+  [269] @gutterscleaning: NO WEBSITE - TARGET [140/150] (Gutter Cleaning, Gainesville, FL)
+  >> Progress saved: 140 targets
+  [270] @dalocksmith: HAS WEBSITE - skip
+  [271] @confidencelocksmith: NO WEBSITE - TARGET [141/150] (Flooring, Florida)
+  [272] @doubledlocksmith: NO WEBSITE - TARGET [142/150] (Flooring, Florida)
+  [273] @robert_the_locksmith: NO WEBSITE - TARGET [143/150] (Flooring, Florida)
+  [274] @bradentonhomesecurity: NO WEBSITE - TARGET [144/150] (Flooring, Bradenton, FL)
+  [275] @jointhelocksmith: HAS WEBSITE - skip
+  [276] @intile_designs: NO WEBSITE - TARGET [145/150] (Electrical, Jacksonville, FL)
+  [277] @bellatilecontractors: NO WEBSITE - TARGET [146/150] (Electrical, Jacksonville, FL)
+  [278] @lakelandgov: HAS WEBSITE - skip
+  [279] @st.augustinelawncare: HAS WEBSITE - skip
+  [280] @naplespoolservice: NO WEBSITE - TARGET [147/150] (Painting, Naples, FL)
+  [281] @classicpoolsofnaples: HAS WEBSITE - skip
+  [282] @purewaterpools: HAS WEBSITE - skip
+  [283] @sonnythepoolguy: HAS WEBSITE - skip
+  [284] @oceanuspoolservice: NO WEBSITE - TARGET [148/150] (Painting, Florida)
+  [285] @lopezstuccollc: NO WEBSITE - TARGET [149/150] (Painting, Florida)
+  [286] @domesticappliances: NO WEBSITE - TARGET [150/150] (Painting, Pompano Beach, FL)
+  >> Progress saved: 150 targets
+
+============================================================
+Done! Found 150 new targets without websites.
+Saved to: C:\Users\ajsup\sam_contractor_sites\scaled_targets.json
+
+By Category:
+  Landscaping: 13
+  Painting: 12
+  Flooring: 12
+  Gutter Cleaning: 11
+  Electrical: 10
+  Concrete Contractor: 8
+  Plumbing: 8
+  Roofing: 8
+  Garage Door: 7
+  Window Cleaning: 6
+  Drywall: 6
+  Bathroom Remodel: 5
+  Pool Service: 5
+  Carpet Cleaning: 4
+  Handyman: 4
+  Pressure Washing: 4
+  Cabinetry: 4
+  Mold Removal: 3
+  Fence Contractor: 3
+  Deck Building: 3
+  Appliance Repair: 3
+  Tile Contractor: 2
+  Kitchen Remodel: 2
+  Locksmith: 2
+  Lawn Care: 2
+  Tree Service: 1
+  Moving Service: 1
+  Paver Installation: 1
+
+By Location:
+  Florida: 46
+  Sarasota, FL: 8
+  Hollywood, FL: 8
+  Miami, FL: 8
+  Doral, FL: 7
+  Melbourne, FL: 6
+  Jacksonville, FL: 5
+  Pompano Beach, FL: 5
+  Gainesville, FL: 5
+  Cape Coral, FL: 5
+  Pembroke Pines, FL: 5
+  Homestead, FL: 4
+  Tallahassee, FL: 4
+  Palm Bay, FL: 4
+  West Palm Beach, FL: 3

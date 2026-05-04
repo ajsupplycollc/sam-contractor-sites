@@ -1,0 +1,32 @@
+{
+  "total_targets": 293,
+  "num_chunks": 5,
+  "sheet_start_row": 100,
+  "chunks": [
+    {
+      "id": 1,
+      "count": 59,
+      "file": "chunk_1.json"
+    },
+    {
+      "id": 2,
+      "count": 59,
+      "file": "chunk_2.json"
+    },
+    {
+      "id": 3,
+      "count": 59,
+      "file": "chunk_3.json"
+    },
+    {
+      "id": 4,
+      "count": 59,
+      "file": "chunk_4.json"
+    },
+    {
+      "id": 5,
+      "count": 57,
+      "file": "chunk_5.json"
+    }
+  ]
+}
