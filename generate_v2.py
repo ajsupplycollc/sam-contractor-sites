@@ -7,8 +7,8 @@ BASE_DIR = r'C:\Users\ajsup\sam_contractor_sites'
 import random
 HERO_IMAGES = {
     'Handyman': ['photo-1501360575895-3f3f2639fd74', 'photo-1652027898837-8a3b11dbcaca'],
-    'Pressure Cleaning': ['photo-1720478664465-4dc6c66e4f6a', 'photo-1664840951038-caf513bcc639', 'photo-1645256418914-feb28d7ec701'],
-    'Pressure Washing': ['photo-1720478664465-4dc6c66e4f6a', 'photo-1664840951038-caf513bcc639', 'photo-1645256418914-feb28d7ec701'],
+    'Pressure Cleaning': ['photo-1718152423993-a29048dbc223', 'photo-1718152521147-817b3a991291', 'photo-1718152423221-0c72ba1a2ee4'],
+    'Pressure Washing': ['photo-1718152423993-a29048dbc223', 'photo-1718152521147-817b3a991291', 'photo-1718152423221-0c72ba1a2ee4'],
     'Tree Service': ['photo-1754321871548-61bdbc6f1506'],
     'Fence Contractor': ['photo-1740482682683-309e6fb4898f', 'photo-1719013224662-b2cd65e0d128', 'photo-1722881445331-0686d389c6b0'],
     'Junk Removal': ['photo-1759279699693-baa1a19fcb34'],
@@ -38,15 +38,15 @@ HERO_IMAGES = {
     'General Contractor': ['photo-1649083048770-82e8ffd80431', 'photo-1653427603096-54342daac941'],
     'Plumbing': ['photo-1651651677635-07c9e0546b4f', 'photo-1593276907429-22dcc91c368a'],
     'HVAC': ['photo-1765634219706-15729e7a3295'],
-    'Flooring': ['photo-1667484834210-5077027d0558'],
+    'Flooring': ['photo-1665507299417-0985dc338ec7', 'photo-1653427603298-91fd42703a7a', 'photo-1560185008-b033106af5c3'],
     'Paver Installation': ['photo-1720478664465-4dc6c66e4f6a'],
     'Epoxy Flooring': ['photo-1766801075605-8c036a5c4ec3'],
     'Screen Enclosure': ['photo-1635111300299-e6e677daf7b7'],
     'Stucco Contractor': ['photo-1776589583490-94561e820f01'],
-    'Drywall': ['photo-1776589583490-94561e820f01', 'photo-1649083048770-82e8ffd80431'],
-    'Garage Door': ['photo-1649083048770-82e8ffd80431', 'photo-1653427603096-54342daac941'],
-    'Cabinetry': ['photo-1667484834210-5077027d0558', 'photo-1649083048770-82e8ffd80431'],
-    'Window Cleaning': ['photo-1732376800702-c555160a4f21', 'photo-1649083048770-82e8ffd80431'],
+    'Drywall': ['photo-1696568976918-f9ddb25f6e6f', 'photo-1768321902380-c65dbd4df3f2', 'photo-1733431774078-692252a6605e'],
+    'Garage Door': ['photo-1647843097965-3686dadb7b84'],
+    'Cabinetry': ['photo-1714358013411-4feccc6a3bab', 'photo-1585692614060-fefda9a7162e'],
+    'Window Cleaning': ['photo-1732376800702-c555160a4f21'],
 }
 
 # Color schemes by category
