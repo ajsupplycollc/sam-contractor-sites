@@ -7,8 +7,8 @@ BASE_DIR = r'C:\Users\ajsup\sam_contractor_sites'
 import random
 HERO_IMAGES = {
     'Handyman': ['photo-1501360575895-3f3f2639fd74', 'photo-1652027898837-8a3b11dbcaca'],
-    'Pressure Cleaning': ['photo-1718152423993-a29048dbc223', 'photo-1720478664465-4dc6c66e4f6a'],
-    'Pressure Washing': ['photo-1720478664465-4dc6c66e4f6a', 'photo-1718152423993-a29048dbc223'],
+    'Pressure Cleaning': ['photo-1720478664465-4dc6c66e4f6a', 'photo-1664840951038-caf513bcc639', 'photo-1645256418914-feb28d7ec701'],
+    'Pressure Washing': ['photo-1720478664465-4dc6c66e4f6a', 'photo-1664840951038-caf513bcc639', 'photo-1645256418914-feb28d7ec701'],
     'Tree Service': ['photo-1754321871548-61bdbc6f1506'],
     'Fence Contractor': ['photo-1740482682683-309e6fb4898f', 'photo-1719013224662-b2cd65e0d128', 'photo-1722881445331-0686d389c6b0'],
     'Junk Removal': ['photo-1759279699693-baa1a19fcb34'],
@@ -377,7 +377,11 @@ REVIEWS = {
 
 
 def slugify(name: str) -> str:
-    return name.lower().replace(' & ', '-').replace('&', '-').replace(' ', '-').replace('.', '').replace(',', '').replace("'", '').replace('/', '-').replace('--', '-').strip('-')
+    import re
+    s = name.lower().replace(' & ', '-').replace('&', '-').replace(' ', '-').replace('/', '-')
+    s = re.sub(r'[^a-z0-9\-]', '', s)
+    s = re.sub(r'-+', '-', s)
+    return s.strip('-')
 
 
 def generate_site(target: dict) -> str:
