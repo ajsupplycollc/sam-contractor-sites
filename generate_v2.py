@@ -3,32 +3,46 @@ sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 BASE_DIR = r'C:\Users\ajsup\sam_contractor_sites'
 
-# Category-accurate hero images from Unsplash (free, no API key needed)
+# Visually verified hero images — lists for rotation so sites don't all look the same
+import random
 HERO_IMAGES = {
-    'Handyman': 'photo-1581783898377-1c85bf937427',       # tools on workbench
-    'Pressure Cleaning': 'photo-1558618666-fcd25c85f82e', # pressure washer on surface
-    'Pressure Washing': 'photo-1558618666-fcd25c85f82e',  # pressure washer on surface
-    'Tree Service': 'photo-1542601906990-b4d3fb778b09',   # tall trees canopy
-    'Fence Contractor': 'photo-1635424710928-0544e8512eae', # wooden fence
-    'Junk Removal': 'photo-1530587191325-3db32d826c18',   # dumpster/hauling
-    'Painting': 'photo-1562259949-e8e7689d7828',          # paint roller on wall
-    'Pool Service': 'photo-1576013551627-0cc20b96c2a7',   # clear blue pool
-    'Concrete Contractor': 'photo-1504307651254-35680f356dfd', # concrete pour
-    'Landscape Design': 'photo-1585320806297-9794b3e4eeae', # beautiful garden
-    'Property Maintenance': 'photo-1581578731548-c64695cc6952', # maintenance/repair
-    'Tile Contractor': 'photo-1600585152220-90363fe7e115', # tile floor
-    'Construction': 'photo-1504307651254-35680f356dfd',    # construction site
-    'Roofing': 'photo-1632759145351-1d592919f522',        # roof/shingles
-    'Lawn Care': 'photo-1592417817098-8fd3d9eb14a5',      # freshly mowed lawn
-    'Artificial Turf': 'photo-1592417817098-8fd3d9eb14a5', # green turf/grass
-    'Sprinkler/Irrigation': 'photo-1416879595882-3373a0480b5b', # sprinkler watering
-    'Irrigation': 'photo-1416879595882-3373a0480b5b',     # sprinkler watering
-    'Moving Service': 'photo-1600518464441-9154a4dea21b',  # moving boxes/truck
-    'Water Damage Restoration': 'photo-1525438160292-a4a860951571', # water/repair
-    'Window Tinting': 'photo-1497366216548-37526070297c',  # glass building/windows
-    'Electrical': 'photo-1621905252507-b35492cc74b4',     # electrical panel
-    'Plastering': 'photo-1598902468171-0f50e8699950',     # stucco/plaster wall
-    'Mobile Car Wash': 'photo-1520340356584-f9166f5be8c1', # car being washed
+    'Handyman': ['photo-1501360575895-3f3f2639fd74', 'photo-1652027898837-8a3b11dbcaca'],
+    'Pressure Cleaning': ['photo-1718152423993-a29048dbc223', 'photo-1720478664465-4dc6c66e4f6a'],
+    'Pressure Washing': ['photo-1720478664465-4dc6c66e4f6a', 'photo-1718152423993-a29048dbc223'],
+    'Tree Service': ['photo-1754321871548-61bdbc6f1506'],
+    'Fence Contractor': ['photo-1740482682683-309e6fb4898f', 'photo-1719013224662-b2cd65e0d128', 'photo-1722881445331-0686d389c6b0'],
+    'Junk Removal': ['photo-1759279699693-baa1a19fcb34'],
+    'Painting': ['photo-1572627614522-1c56af1d9d72', 'photo-1525909002-1b05e0c869d8'],
+    'Painting & Pressure Cleaning': ['photo-1572627614522-1c56af1d9d72'],
+    'Pool Service': ['photo-1635111300299-e6e677daf7b7', 'photo-1762811054950-b74e0a055c80'],
+    'Pool Cleaning': ['photo-1635111300299-e6e677daf7b7', 'photo-1762811054950-b74e0a055c80'],
+    'Concrete Contractor': ['photo-1693639385915-d7a7ddefe8e1'],
+    'Landscape Design': ['photo-1758414335865-17baa986b85b'],
+    'Landscaping': ['photo-1758414335865-17baa986b85b', 'photo-1558904541-efa843a96f01'],
+    'Property Maintenance': ['photo-1770625297560-37a965493b15'],
+    'Tile Contractor': ['photo-1667484834210-5077027d0558'],
+    'Tile Store': ['photo-1667484834210-5077027d0558'],
+    'Construction': ['photo-1693639385915-d7a7ddefe8e1'],
+    'Roofing': ['photo-1588711812015-1e4bc3c4d27b', 'photo-1588711811949-586f552dc446'],
+    'Lawn Care': ['photo-1729047476118-8d47192609bc', 'photo-1729647178020-bb0aa58e6072'],
+    'Artificial Turf': ['photo-1729047476118-8d47192609bc', 'photo-1729647178020-bb0aa58e6072'],
+    'Sprinkler/Irrigation': ['photo-1701451194924-c587b45dc3e3', 'photo-1622122123829-e0490a288d04'],
+    'Irrigation': ['photo-1701451194924-c587b45dc3e3', 'photo-1622122123829-e0490a288d04'],
+    'Sprinkler Contractor': ['photo-1622122123829-e0490a288d04', 'photo-1701451194924-c587b45dc3e3'],
+    'Moving Service': ['photo-1715645948484-da40dd56bc93'],
+    'Water Damage Restoration': ['photo-1503148192753-bf4074efa989'],
+    'Window Tinting': ['photo-1732376800702-c555160a4f21'],
+    'Electrical': ['photo-1615774925655-a0e97fc85c14', 'photo-1635335874521-7987db781153'],
+    'Plastering': ['photo-1776589583490-94561e820f01'],
+    'Mobile Car Wash': ['photo-1687675419180-5ac12bd3dfd5'],
+    'General Contractor': ['photo-1649083048770-82e8ffd80431', 'photo-1653427603096-54342daac941'],
+    'Plumbing': ['photo-1651651677635-07c9e0546b4f', 'photo-1593276907429-22dcc91c368a'],
+    'HVAC': ['photo-1765634219706-15729e7a3295'],
+    'Flooring': ['photo-1667484834210-5077027d0558'],
+    'Paver Installation': ['photo-1720478664465-4dc6c66e4f6a'],
+    'Epoxy Flooring': ['photo-1766801075605-8c036a5c4ec3'],
+    'Screen Enclosure': ['photo-1635111300299-e6e677daf7b7'],
+    'Stucco Contractor': ['photo-1776589583490-94561e820f01'],
 }
 
 # Color schemes by category
@@ -374,7 +388,8 @@ def generate_site(target: dict) -> str:
     scheme = SCHEMES.get(category, SCHEMES['Handyman'])
     services = SERVICES.get(category, SERVICES['Handyman'])
     tagline = TAGLINES.get(category, 'Professional Service You Can Trust')
-    hero_img = HERO_IMAGES.get(category, 'photo-1581783898377-1c85bf937427')
+    hero_options = HERO_IMAGES.get(category, ['photo-1501360575895-3f3f2639fd74'])
+    hero_img = random.choice(hero_options)
     review_texts = REVIEWS.get(category, REVIEWS['Handyman'])
 
     # CTA logic: phone first, IG DM fallback
@@ -498,6 +513,9 @@ def generate_site(target: dict) -> str:
     <meta property="og:title" content="{name} | {category} in {location}">
     <meta property="og:description" content="{tagline}. Professional {category.lower()} serving {location}. Free estimates.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.unsplash.com/{hero_img}?w=1200&h=630&fit=crop&crop=center">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family={font_import}:wght@{font_weights}&display=swap" rel="stylesheet">
@@ -522,7 +540,7 @@ def generate_site(target: dict) -> str:
         .portfolio-link{{display:inline-flex;align-items:center;gap:12px;background:var(--card-bg);border:1px solid var(--border);padding:20px 36px;border-radius:12px;text-decoration:none;color:#f4f4f5;font-weight:600;font-size:1.05rem;transition:border-color .2s}}
         .portfolio-link:hover{{border-color:var(--accent)}}
         .portfolio-link svg{{color:var(--accent)}}
-        .hero{{padding:80px 0 60px;text-align:center;background:linear-gradient(135deg,var(--dark-bg) 0%,#1a1a2e 50%,var(--dark-bg) 100%)}}
+        .hero{{padding:80px 0 60px;text-align:center;background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://images.unsplash.com/{hero_img}?w=1400&h=600&fit=crop&crop=center');background-size:cover;background-position:center}}
         .hero-badge{{display:inline-block;border:1px solid var(--accent);color:var(--accent);padding:6px 16px;border-radius:20px;font-size:.75rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:20px}}
         .hero h1{{font-size:clamp(2rem,5vw,3.2rem);font-weight:800;margin-bottom:14px;line-height:1.15}}
         .hero h1 span{{color:var(--accent)}}
