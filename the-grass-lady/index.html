@@ -115,10 +115,8 @@
         .portfolio{background:var(--cream)}
         .portfolio-grid{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}
         .portfolio-visual{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-        .portfolio-tile{aspect-ratio:1;background:var(--emerald);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:2rem;opacity:.15}
-        .portfolio-tile:nth-child(2){background:var(--gold);opacity:.2}
-        .portfolio-tile:nth-child(3){background:var(--gold);opacity:.2}
-        .portfolio-tile:nth-child(4){background:var(--emerald);opacity:.15}
+        .portfolio-tile{aspect-ratio:1;border-radius:12px;background-size:cover;background-position:center;transition:all .3s}
+        .portfolio-tile:hover{transform:scale(1.03);box-shadow:0 8px 30px rgba(0,0,0,0.15)}
         .portfolio-text h2{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,3.5vw,2.4rem);font-weight:700;margin-bottom:16px;line-height:1.2}
         .portfolio-text p{color:var(--warm-gray);font-size:1.05rem;line-height:1.8;margin-bottom:28px}
         .portfolio-cta{display:inline-flex;align-items:center;gap:10px;background:var(--charcoal);color:#fff;text-decoration:none;padding:16px 32px;border-radius:10px;font-weight:600;font-size:1rem;transition:all .2s}
@@ -370,10 +368,10 @@
 <section class="portfolio" id="portfolio">
     <div class="portfolio-grid">
         <div class="portfolio-visual">
-            <div class="portfolio-tile">&#127807;</div>
-            <div class="portfolio-tile">&#9971;</div>
-            <div class="portfolio-tile">&#127965;</div>
-            <div class="portfolio-tile">&#128062;</div>
+            <div class="portfolio-tile" style="background-image:url('https://images.unsplash.com/photo-1715934514075-06f0dbda1c09?w=400&h=400&fit=crop')"></div>
+            <div class="portfolio-tile" style="background-image:url('https://images.unsplash.com/photo-1599682848475-09574d1db9c6?w=400&h=400&fit=crop')"></div>
+            <div class="portfolio-tile" style="background-image:url('https://images.unsplash.com/photo-1729058015948-592a8e4a1772?w=400&h=400&fit=crop')"></div>
+            <div class="portfolio-tile" style="background-image:url('https://images.unsplash.com/photo-1563533539148-fdafb23ee572?w=400&h=400&fit=crop')"></div>
         </div>
         <div class="portfolio-text">
             <div class="section-tag">Our Work</div>
