@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Grass Lady | Premium Artificial Turf Installation in South Florida</title>
+    <meta name="description" content="The Grass Lady - Premium artificial turf installation serving Hollywood, Fort Myers & all of South Florida. Family-owned. Free estimates. Call (239) 240-9747.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="The Grass Lady | Premium Artificial Turf in South Florida">
+    <meta property="og:description" content="Transform your yard. No mowing. No watering. No maintenance. Family-owned artificial turf installation across South Florida.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&h=630&fit=crop">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F33F;</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"The Grass Lady - A1 Artificial Grass of SW Florida","description":"Premium artificial turf installation serving all of South Florida. Residential, commercial, pet turf, putting greens & more.","owner":{"@type":"Person","name":"Darleen Strange"},"areaServed":["Hollywood, FL","Fort Myers, FL","Miami, FL","South Florida"],"address":{"@type":"PostalAddress","addressLocality":"Hollywood","addressRegion":"FL"},"telephone":"(239) 240-9747","email":"a1artificialgrassofswflorida@yahoo.com","priceRange":"$9-$13/sq ft","sameAs":["https://instagram.com/the.grass.lady","https://facebook.com/StrangeDarleen","https://linkedin.com/in/darleen-strange-b2b739338"]}</script>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        :root{
+            --emerald:#1a7a4c;
+            --emerald-light:#22a566;
+            --emerald-dark:#0f5c38;
+            --gold:#c9a84c;
+            --gold-light:#e0c06e;
+            --cream:#faf8f2;
+            --charcoal:#1a1a1a;
+            --warm-gray:#6b6b6b;
+            --light-gray:#f0ede6;
+        }
+        html{scroll-behavior:smooth}
+        body{font-family:'Inter',-apple-system,sans-serif;color:var(--charcoal);background:var(--cream);line-height:1.7;-webkit-font-smoothing:antialiased}
+
+        /* NAV */
+        nav{position:fixed;top:0;width:100%;z-index:1000;background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);border-bottom:1px solid rgba(0,0,0,0.06);padding:0 24px;transition:box-shadow .3s}
+        nav.scrolled{box-shadow:0 2px 30px rgba(0,0,0,0.08)}
+        .nav-inner{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;height:70px}
+        .nav-brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--charcoal)}
+        .nav-brand-icon{width:42px;height:42px;background:var(--emerald);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:20px}
+        .nav-brand-text{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:700}
+        .nav-brand-text span{color:var(--emerald)}
+        .nav-links{display:flex;gap:32px;align-items:center;list-style:none}
+        .nav-links a{text-decoration:none;color:var(--warm-gray);font-size:.88rem;font-weight:500;letter-spacing:.3px;transition:color .2s}
+        .nav-links a:hover{color:var(--emerald)}
+        .nav-cta{background:var(--emerald)!important;color:#fff!important;padding:10px 24px;border-radius:8px;font-weight:600!important;transition:background .2s!important}
+        .nav-cta:hover{background:var(--emerald-dark)!important}
+        .mobile-toggle{display:none;background:none;border:none;font-size:24px;cursor:pointer;color:var(--charcoal)}
+
+        /* HERO */
+        .hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;background:#0a2a1a}
+        .hero-bg{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1800&h=1000&fit=crop');background-size:cover;background-position:center;opacity:.4}
+        .hero-overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(10,42,26,0.92) 0%,rgba(26,122,76,0.7) 50%,rgba(10,42,26,0.85) 100%)}
+        .hero-content{position:relative;z-index:2;max-width:1200px;margin:0 auto;padding:120px 24px 80px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+        .hero-text{color:#fff}
+        .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(201,168,76,0.15);border:1px solid rgba(201,168,76,0.3);color:var(--gold-light);padding:8px 18px;border-radius:30px;font-size:.75rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;margin-bottom:24px}
+        .hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.5rem,5.5vw,4.2rem);font-weight:800;line-height:1.1;margin-bottom:20px}
+        .hero h1 .accent{color:var(--gold-light);font-style:italic}
+        .hero .subtitle{font-size:1.15rem;color:rgba(255,255,255,0.8);font-weight:300;margin-bottom:36px;max-width:500px;line-height:1.8}
+        .hero-buttons{display:flex;gap:14px;flex-wrap:wrap}
+        .btn-primary{display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:var(--charcoal);text-decoration:none;padding:16px 36px;border-radius:8px;font-weight:700;font-size:1rem;transition:all .2s;border:none;cursor:pointer}
+        .btn-primary:hover{background:var(--gold-light);transform:translateY(-2px);box-shadow:0 8px 30px rgba(201,168,76,0.3)}
+        .btn-outline{display:inline-flex;align-items:center;gap:8px;background:transparent;color:#fff;text-decoration:none;padding:15px 32px;border-radius:8px;font-weight:600;font-size:1rem;border:2px solid rgba(255,255,255,0.3);transition:all .2s}
+        .btn-outline:hover{border-color:#fff;background:rgba(255,255,255,0.08)}
+        .hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+        .stat-card{background:rgba(255,255,255,0.06);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:28px 20px;text-align:center}
+        .stat-number{font-family:'Playfair Display',serif;font-size:2.4rem;font-weight:800;color:var(--gold-light);display:block;margin-bottom:4px}
+        .stat-label{font-size:.8rem;color:rgba(255,255,255,0.6);text-transform:uppercase;letter-spacing:1.5px;font-weight:500}
+
+        /* SECTION STYLES */
+        section{padding:100px 24px}
+        .section-header{text-align:center;max-width:600px;margin:0 auto 60px}
+        .section-tag{display:inline-block;color:var(--emerald);font-size:.75rem;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:12px}
+        .section-title{font-family:'Playfair Display',serif;font-size:clamp(2rem,4vw,2.8rem);font-weight:700;margin-bottom:16px;line-height:1.2}
+        .section-subtitle{color:var(--warm-gray);font-size:1.05rem;font-weight:300;line-height:1.8}
+
+        /* WHY SECTION */
+        .why{background:var(--charcoal);color:#fff}
+        .why .section-tag{color:var(--gold)}
+        .why .section-subtitle{color:rgba(255,255,255,0.6)}
+        .why-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+        .why-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:16px;padding:36px 28px;transition:all .3s}
+        .why-card:hover{border-color:var(--emerald);transform:translateY(-4px)}
+        .why-icon{width:56px;height:56px;background:linear-gradient(135deg,var(--emerald),var(--emerald-light));border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:20px}
+        .why-card h3{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700;margin-bottom:10px}
+        .why-card p{color:rgba(255,255,255,0.55);font-size:.92rem;line-height:1.7}
+
+        /* SERVICES */
+        .services{background:var(--cream)}
+        .services-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+        .service-card{background:#fff;border-radius:16px;overflow:hidden;border:1px solid rgba(0,0,0,0.06);transition:all .3s;cursor:default}
+        .service-card:hover{transform:translateY(-6px);box-shadow:0 20px 50px rgba(0,0,0,0.08)}
+        .service-img{height:200px;background-size:cover;background-position:center;position:relative}
+        .service-img::after{content:'';position:absolute;bottom:0;left:0;right:0;height:60px;background:linear-gradient(transparent,#fff)}
+        .service-body{padding:24px 28px 32px}
+        .service-body h3{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:700;margin-bottom:8px}
+        .service-body p{color:var(--warm-gray);font-size:.9rem;line-height:1.7}
+        .service-tag{display:inline-block;background:rgba(26,122,76,0.08);color:var(--emerald);font-size:.72rem;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:.5px;text-transform:uppercase;margin-bottom:12px}
+
+        /* PROCESS */
+        .process{background:var(--light-gray)}
+        .process-steps{max-width:900px;margin:0 auto;display:grid;gap:0}
+        .step{display:grid;grid-template-columns:60px 1fr;gap:24px;padding:32px 0;position:relative}
+        .step:not(:last-child){border-bottom:1px solid rgba(0,0,0,0.06)}
+        .step-num{width:48px;height:48px;background:var(--emerald);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700;flex-shrink:0}
+        .step h3{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;margin-bottom:6px}
+        .step p{color:var(--warm-gray);font-size:.92rem}
+
+        /* TESTIMONIAL */
+        .testimonial{background:var(--emerald);color:#fff;text-align:center}
+        .testimonial-content{max-width:700px;margin:0 auto}
+        .testimonial-quote{font-family:'Playfair Display',serif;font-size:clamp(1.4rem,3vw,2rem);font-weight:500;font-style:italic;line-height:1.5;margin-bottom:24px;opacity:.95}
+        .testimonial-author{font-size:.9rem;opacity:.7;letter-spacing:1px;text-transform:uppercase}
+        .quote-mark{font-family:'Playfair Display',serif;font-size:5rem;color:rgba(255,255,255,0.15);line-height:1;margin-bottom:-20px}
+
+        /* CTA */
+        .cta{background:var(--charcoal);color:#fff;text-align:center}
+        .cta .section-title{color:#fff}
+        .cta .section-subtitle{color:rgba(255,255,255,0.6)}
+        .cta-buttons{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:36px}
+        .cta-phone{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,4vw,2.6rem);font-weight:700;color:var(--gold-light);text-decoration:none;display:block;margin-top:20px;transition:opacity .2s}
+        .cta-phone:hover{opacity:.8}
+
+        /* FOOTER */
+        footer{background:#111;color:rgba(255,255,255,0.5);padding:60px 24px 30px}
+        .footer-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;margin-bottom:40px}
+        .footer-brand{font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:700;color:#fff;margin-bottom:12px}
+        .footer-brand span{color:var(--emerald-light)}
+        .footer-desc{font-size:.88rem;line-height:1.8;max-width:320px}
+        .footer-heading{font-size:.75rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.8);margin-bottom:16px}
+        .footer-links{list-style:none;display:flex;flex-direction:column;gap:10px}
+        .footer-links a{color:rgba(255,255,255,0.5);text-decoration:none;font-size:.88rem;transition:color .2s}
+        .footer-links a:hover{color:var(--emerald-light)}
+        .footer-social{display:flex;gap:12px;margin-top:16px}
+        .footer-social a{width:40px;height:40px;background:rgba(255,255,255,0.06);border-radius:10px;display:flex;align-items:center;justify-content:center;text-decoration:none;color:rgba(255,255,255,0.6);font-size:18px;transition:all .2s}
+        .footer-social a:hover{background:var(--emerald);color:#fff}
+        .footer-bottom{max-width:1200px;margin:0 auto;padding-top:24px;border-top:1px solid rgba(255,255,255,0.08);display:flex;justify-content:space-between;font-size:.8rem}
+        .footer-bottom a{color:rgba(255,255,255,0.4);text-decoration:none}
+
+        /* RESPONSIVE */
+        @media(max-width:900px){
+            .hero-content{grid-template-columns:1fr;text-align:center;padding-top:100px}
+            .hero .subtitle{margin:0 auto 36px}
+            .hero-buttons{justify-content:center}
+            .hero-stats{grid-template-columns:repeat(3,1fr)}
+            .why-grid,.services-grid{grid-template-columns:1fr}
+            .footer-inner{grid-template-columns:1fr}
+            .nav-links{display:none}
+            .mobile-toggle{display:block}
+        }
+        @media(max-width:600px){
+            .hero-stats{grid-template-columns:1fr}
+            .stat-card{padding:20px}
+            section{padding:70px 20px}
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+    <div class="nav-inner">
+        <a href="#" class="nav-brand">
+            <div class="nav-brand-icon">&#127807;</div>
+            <div class="nav-brand-text">The Grass <span>Lady</span></div>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="tel:2392409747" class="nav-cta">Free Estimate</a></li>
+        </ul>
+        <button class="mobile-toggle" onclick="document.querySelector('.nav-links').classList.toggle('show')" aria-label="Menu">&#9776;</button>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <div class="hero-text">
+            <div class="hero-badge">&#127807; Family-Owned &bull; South Florida</div>
+            <h1>Your Yard,<br><span class="accent">Perfected.</span></h1>
+            <p class="subtitle">Premium artificial turf installation across South Florida. No mowing. No watering. No maintenance. Just a perfect lawn, 365 days a year.</p>
+            <div class="hero-buttons">
+                <a href="tel:2392409747" class="btn-primary">&#9742; Get Free Estimate</a>
+                <a href="https://ig.me/m/the.grass.lady" target="_blank" class="btn-outline">&#9993; Message Us</a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-card">
+                <span class="stat-number">$9</span>
+                <span class="stat-label">Starting Per Sq Ft</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">25</span>
+                <span class="stat-label">Year Warranty</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">0</span>
+                <span class="stat-label">Maintenance</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- WHY ARTIFICIAL TURF -->
+<section class="why" id="why">
+    <div class="section-header">
+        <div class="section-tag">Why Artificial Turf</div>
+        <h2 class="section-title">South Florida's Lawn Problem, Solved</h2>
+        <p class="section-subtitle">Chinch bugs. Water bills. Weekend mowing in 95-degree heat. There's a better way.</p>
+    </div>
+    <div class="why-grid">
+        <div class="why-card">
+            <div class="why-icon">&#128167;</div>
+            <h3>Zero Water Bills</h3>
+            <p>South Florida water isn't cheap. Artificial turf eliminates irrigation completely. Your lawn stays green while your neighbors' sprinklers run all night.</p>
+        </div>
+        <div class="why-card">
+            <div class="why-icon">&#9728;&#65039;</div>
+            <h3>Built for Florida Heat</h3>
+            <p>UV-stabilized fibers that won't fade or break down under Florida sun. Looks as good in year 10 as the day it was installed.</p>
+        </div>
+        <div class="why-card">
+            <div class="why-icon">&#127786;&#65039;</div>
+            <h3>Hurricane Ready</h3>
+            <p>Proper drainage means no flooding, no pooling, no mud. After a storm, your turf is clean and dry while natural lawns are underwater.</p>
+        </div>
+        <div class="why-card">
+            <div class="why-icon">&#128027;</div>
+            <h3>No Pests, No Chemicals</h3>
+            <p>No chinch bugs. No grubs. No fungus. No pesticide trucks in your driveway. Just clean, safe ground cover for your family and pets.</p>
+        </div>
+        <div class="why-card">
+            <div class="why-icon">&#127968;</div>
+            <h3>HOA Approved</h3>
+            <p>Florida law now protects your right to install artificial turf. HOAs and cities can no longer ban it in front yards.</p>
+        </div>
+        <div class="why-card">
+            <div class="why-icon">&#128176;</div>
+            <h3>Increases Home Value</h3>
+            <p>A permanently perfect lawn with zero upkeep is a selling point. Curb appeal that maintains itself, year after year.</p>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+    <div class="section-header">
+        <div class="section-tag">What We Do</div>
+        <h2 class="section-title">Every Surface, Perfected</h2>
+        <p class="section-subtitle">From backyard transformations to commercial installations, we handle it all.</p>
+    </div>
+    <div class="services-grid">
+        <div class="service-card">
+            <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop')"></div>
+            <div class="service-body">
+                <span class="service-tag">Most Popular</span>
+                <h3>Residential Lawns</h3>
+                <p>Full front and backyard installations. Perfect lawn from day one, zero maintenance forever. We handle everything from ground prep to final infill.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&h=400&fit=crop')"></div>
+            <div class="service-body">
+                <span class="service-tag">Pet Owners</span>
+                <h3>Pet Turf & Dog Runs</h3>
+                <p>Antimicrobial, fast-draining turf designed for pets. No mud, no dead spots, no digging damage. Easy to clean, safe for paws.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=600&h=400&fit=crop')"></div>
+            <div class="service-body">
+                <span class="service-tag">Recreation</span>
+                <h3>Putting Greens</h3>
+                <p>Custom backyard putting greens with professional-grade turf. Practice your short game steps from your back door, any time you want.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop')"></div>
+            <div class="service-body">
+                <span class="service-tag">Families</span>
+                <h3>Playground & Play Areas</h3>
+                <p>Padded, fall-rated turf that keeps kids safe. No more grass stains, fire ants, or muddy shoes coming through your front door.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1572331165267-854da2b021b1?w=600&h=400&fit=crop')"></div>
+            <div class="service-body">
+                <span class="service-tag">Luxury</span>
+                <h3>Pool Surrounds</h3>
+                <p>Slip-resistant turf that stays cool underfoot. No more hot pavers or muddy pool decks. Drains instantly after a splash.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop')"></div>
+            <div class="service-body">
+                <span class="service-tag">Business</span>
+                <h3>Commercial Installation</h3>
+                <p>Office complexes, retail storefronts, hotels, and restaurants. Professional appearance with zero landscape maintenance budget.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process" id="process">
+    <div class="section-header">
+        <div class="section-tag">How It Works</div>
+        <h2 class="section-title">From Call to Perfect Lawn</h2>
+        <p class="section-subtitle">Four simple steps. We handle the hard part.</p>
+    </div>
+    <div class="process-steps">
+        <div class="step">
+            <div class="step-num">1</div>
+            <div>
+                <h3>Free Estimate</h3>
+                <p>Call or message us. We come out, measure your space, discuss your vision, and give you an honest quote on the spot. No pressure, no games.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-num">2</div>
+            <div>
+                <h3>Choose Your Turf</h3>
+                <p>We bring samples to your home. Touch them, feel them, see them in your lighting. We'll recommend the right product for your specific use case.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-num">3</div>
+            <div>
+                <h3>Professional Installation</h3>
+                <p>Our crew handles everything: old lawn removal, ground prep, drainage, turf laying, seaming, and infill. Most residential jobs complete in 1-2 days.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-num">4</div>
+            <div>
+                <h3>Enjoy Forever</h3>
+                <p>Walk on it the same day. No watering schedule, no mowing, no fertilizer runs. Just a perfect lawn that stays perfect.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="testimonial">
+    <div class="testimonial-content">
+        <div class="quote-mark">"</div>
+        <p class="testimonial-quote">Family owned and operated, grown right here in the heart of South Florida. We treat every yard like it's our own.</p>
+        <p class="testimonial-author">Darleen Strange &bull; Owner, The Grass Lady</p>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" id="contact">
+    <div class="section-header">
+        <div class="section-tag" style="color:var(--gold)">Ready?</div>
+        <h2 class="section-title">Let's Transform Your Yard</h2>
+        <p class="section-subtitle">Free estimates. No pressure. Just honest advice from a family that knows turf.</p>
+    </div>
+    <div class="cta-buttons">
+        <a href="tel:2392409747" class="btn-primary">&#9742; Call Now</a>
+        <a href="https://ig.me/m/the.grass.lady" target="_blank" class="btn-outline" style="border-color:rgba(255,255,255,0.3);color:#fff">&#9993; Message on Instagram</a>
+        <a href="mailto:a1artificialgrassofswflorida@yahoo.com" class="btn-outline" style="border-color:rgba(255,255,255,0.3);color:#fff">&#9993; Email Us</a>
+    </div>
+    <a href="tel:2392409747" class="cta-phone">(239) 240-9747</a>
+    <p style="color:rgba(255,255,255,0.4);margin-top:12px;font-size:.9rem">Hollywood &bull; Fort Myers &bull; Miami &bull; All of South Florida</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-inner">
+        <div>
+            <div class="footer-brand">The Grass <span>Lady</span></div>
+            <p class="footer-desc">A1 Artificial Grass of SW Florida. Family-owned and operated. Premium artificial turf installation serving Hollywood, Fort Myers, Miami, and all of South Florida.</p>
+            <div class="footer-social">
+                <a href="https://instagram.com/the.grass.lady" target="_blank" aria-label="Instagram">IG</a>
+                <a href="https://facebook.com/StrangeDarleen" target="_blank" aria-label="Facebook">FB</a>
+                <a href="https://linkedin.com/in/darleen-strange-b2b739338" target="_blank" aria-label="LinkedIn">IN</a>
+            </div>
+        </div>
+        <div>
+            <div class="footer-heading">Services</div>
+            <ul class="footer-links">
+                <li><a href="#services">Residential Lawns</a></li>
+                <li><a href="#services">Pet Turf</a></li>
+                <li><a href="#services">Putting Greens</a></li>
+                <li><a href="#services">Pool Surrounds</a></li>
+                <li><a href="#services">Commercial</a></li>
+            </ul>
+        </div>
+        <div>
+            <div class="footer-heading">Contact</div>
+            <ul class="footer-links">
+                <li><a href="tel:2392409747">(239) 240-9747</a></li>
+                <li><a href="tel:5619329992">(561) 932-9992</a></li>
+                <li><a href="mailto:a1artificialgrassofswflorida@yahoo.com">Email Us</a></li>
+                <li><a href="https://instagram.com/the.grass.lady" target="_blank">@the.grass.lady</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <span>&copy; 2026 The Grass Lady &ndash; A1 Artificial Grass of SW Florida. All rights reserved.</span>
+        <span>Serving South Florida</span>
+    </div>
+</footer>
+
+<script>
+window.addEventListener('scroll',()=>{
+    document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>50);
+});
+</script>
+
+</body>
+</html>
