@@ -9,7 +9,7 @@
     <meta property="og:title" content="The Grass Lady | Premium Artificial Turf in South Florida">
     <meta property="og:description" content="Transform your yard. No mowing. No watering. No maintenance. Family-owned artificial turf installation across South Florida.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1558904541-efa843a96f01?w=1200&h=630&fit=crop">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1731052265841-82989d50156f?w=1200&h=630&fit=crop">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F33F;</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -47,7 +47,7 @@
 
         /* HERO */
         .hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;background:#0a2a1a}
-        .hero-bg{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1558904541-efa843a96f01?w=1800&h=1000&fit=crop');background-size:cover;background-position:center;opacity:.4}
+        .hero-bg{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1731052265841-82989d50156f?w=1800&h=1000&fit=crop');background-size:cover;background-position:center;opacity:.4}
         .hero-overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(10,42,26,0.92) 0%,rgba(26,122,76,0.7) 50%,rgba(10,42,26,0.85) 100%)}
         .hero-content{position:relative;z-index:2;max-width:1200px;margin:0 auto;padding:120px 24px 80px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
         .hero-text{color:#fff}
@@ -110,6 +110,21 @@
         .testimonial-quote{font-family:'Playfair Display',serif;font-size:clamp(1.4rem,3vw,2rem);font-weight:500;font-style:italic;line-height:1.5;margin-bottom:24px;opacity:.95}
         .testimonial-author{font-size:.9rem;opacity:.7;letter-spacing:1px;text-transform:uppercase}
         .quote-mark{font-family:'Playfair Display',serif;font-size:5rem;color:rgba(255,255,255,0.15);line-height:1;margin-bottom:-20px}
+
+        /* PORTFOLIO */
+        .portfolio{background:var(--cream)}
+        .portfolio-grid{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}
+        .portfolio-visual{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+        .portfolio-tile{aspect-ratio:1;background:var(--emerald);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:2rem;opacity:.15}
+        .portfolio-tile:nth-child(2){background:var(--gold);opacity:.2}
+        .portfolio-tile:nth-child(3){background:var(--gold);opacity:.2}
+        .portfolio-tile:nth-child(4){background:var(--emerald);opacity:.15}
+        .portfolio-text h2{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,3.5vw,2.4rem);font-weight:700;margin-bottom:16px;line-height:1.2}
+        .portfolio-text p{color:var(--warm-gray);font-size:1.05rem;line-height:1.8;margin-bottom:28px}
+        .portfolio-cta{display:inline-flex;align-items:center;gap:10px;background:var(--charcoal);color:#fff;text-decoration:none;padding:16px 32px;border-radius:10px;font-weight:600;font-size:1rem;transition:all .2s}
+        .portfolio-cta:hover{background:var(--emerald);transform:translateY(-2px);box-shadow:0 8px 30px rgba(26,122,76,0.2)}
+        .portfolio-cta svg{width:20px;height:20px;fill:currentColor}
+        @media(max-width:900px){.portfolio-grid{grid-template-columns:1fr;text-align:center}.portfolio-visual{max-width:300px;margin:0 auto 24px}}
 
         /* CTA */
         .cta{background:var(--charcoal);color:#fff;text-align:center}
@@ -253,7 +268,7 @@
     </div>
     <div class="services-grid">
         <div class="service-card">
-            <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop')"></div>
+            <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1766603636671-484c4911a84b?w=600&h=400&fit=crop')"></div>
             <div class="service-body">
                 <span class="service-tag">Most Popular</span>
                 <h3>Residential Lawns</h3>
@@ -261,7 +276,7 @@
             </div>
         </div>
         <div class="service-card">
-            <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&h=400&fit=crop')"></div>
+            <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1717565958587-b17f32e58296?w=600&h=400&fit=crop')"></div>
             <div class="service-body">
                 <span class="service-tag">Pet Owners</span>
                 <h3>Pet Turf & Dog Runs</h3>
@@ -269,7 +284,7 @@
             </div>
         </div>
         <div class="service-card">
-            <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=600&h=400&fit=crop')"></div>
+            <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1751830188133-db2fd1d3a92f?w=600&h=400&fit=crop')"></div>
             <div class="service-body">
                 <span class="service-tag">Recreation</span>
                 <h3>Putting Greens</h3>
@@ -277,7 +292,7 @@
             </div>
         </div>
         <div class="service-card">
-            <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1596997000103-e597b3ca50df?w=600&h=400&fit=crop')"></div>
+            <div class="service-img" style="background-image:url('https://plus.unsplash.com/premium_photo-1754408371591-f05964f45d44?w=600&h=400&fit=crop')"></div>
             <div class="service-body">
                 <span class="service-tag">Families</span>
                 <h3>Playground & Play Areas</h3>
@@ -293,7 +308,7 @@
             </div>
         </div>
         <div class="service-card">
-            <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop')"></div>
+            <div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1762018927234-53d1716db980?w=600&h=400&fit=crop')"></div>
             <div class="service-body">
                 <span class="service-tag">Business</span>
                 <h3>Commercial Installation</h3>
@@ -348,6 +363,27 @@
         <div class="quote-mark">"</div>
         <p class="testimonial-quote">Family owned and operated, grown right here in the heart of South Florida. We treat every yard like it's our own.</p>
         <p class="testimonial-author">Darleen Strange &bull; Owner, The Grass Lady</p>
+    </div>
+</section>
+
+<!-- PORTFOLIO / INSTAGRAM -->
+<section class="portfolio" id="portfolio">
+    <div class="portfolio-grid">
+        <div class="portfolio-visual">
+            <div class="portfolio-tile">&#127807;</div>
+            <div class="portfolio-tile">&#9971;</div>
+            <div class="portfolio-tile">&#127965;</div>
+            <div class="portfolio-tile">&#128062;</div>
+        </div>
+        <div class="portfolio-text">
+            <div class="section-tag">Our Work</div>
+            <h2>See Real Transformations</h2>
+            <p>Every yard has a story. Follow us on Instagram to see before-and-afters, behind-the-scenes installations, and the kind of results we deliver across South Florida. Real projects. Real clients. Real turf.</p>
+            <a href="https://instagram.com/the.grass.lady" target="_blank" class="portfolio-cta">
+                <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                Follow @the.grass.lady
+            </a>
+        </div>
     </div>
 </section>
 
