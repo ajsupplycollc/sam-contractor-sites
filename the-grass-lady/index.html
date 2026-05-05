@@ -31,11 +31,11 @@
         body{font-family:'Inter',-apple-system,sans-serif;color:var(--charcoal);background:var(--cream);line-height:1.7;-webkit-font-smoothing:antialiased}
 
         /* NAV */
-        nav{position:fixed;top:0;width:100%;z-index:1000;background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);border-bottom:1px solid rgba(0,0,0,0.06);padding:0 24px;transition:box-shadow .3s}
+        nav{position:fixed;top:0;width:100%;z-index:1000;background:rgba(255,255,255,0.97);backdrop-filter:blur(20px);border-bottom:2px solid var(--emerald);padding:0 24px;transition:box-shadow .3s}
         nav.scrolled{box-shadow:0 2px 30px rgba(0,0,0,0.08)}
-        .nav-inner{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;height:90px}
+        .nav-inner{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;height:110px}
         .nav-brand{display:flex;align-items:center;text-decoration:none;color:var(--charcoal)}
-        .nav-brand img{height:70px;width:auto}
+        .nav-brand img{height:90px;width:auto;padding:8px 0}
         .nav-links{display:flex;gap:32px;align-items:center;list-style:none}
         .nav-links a{text-decoration:none;color:var(--warm-gray);font-size:.88rem;font-weight:500;letter-spacing:.3px;transition:color .2s}
         .nav-links a:hover{color:var(--emerald)}
@@ -47,7 +47,7 @@
         .hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;background:#0a2a1a}
         .hero-bg{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1731052265841-82989d50156f?w=1800&h=1000&fit=crop');background-size:cover;background-position:center;opacity:.4}
         .hero-overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(10,42,26,0.92) 0%,rgba(26,122,76,0.7) 50%,rgba(10,42,26,0.85) 100%)}
-        .hero-content{position:relative;z-index:2;max-width:1200px;margin:0 auto;padding:120px 24px 80px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+        .hero-content{position:relative;z-index:2;max-width:1200px;margin:0 auto;padding:140px 24px 80px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
         .hero-text{color:#fff}
         .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(201,168,76,0.15);border:1px solid rgba(201,168,76,0.3);color:var(--gold-light);padding:8px 18px;border-radius:30px;font-size:.75rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;margin-bottom:24px}
         .hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.5rem,5.5vw,4.2rem);font-weight:800;line-height:1.1;margin-bottom:20px}
